@@ -1,0 +1,87 @@
+\hypertarget{sched__interface_8h}{}\doxysection{include/sched\+\_\+interface.h File Reference}
+\label{sched__interface_8h}\index{include/sched\_interface.h@{include/sched\_interface.h}}
+
+
+This file is to be used as an implementation of the scheduler driver.  
+
+
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_s_c_h_e_d__task__t}{S\+C\+H\+E\+D\+\_\+task\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \mbox{\hyperlink{sched__interface_8h_a5950a6304fb181815bb5d6e460e14575}{S\+C\+H\+E\+D\+\_\+task\+\_\+runnable\+\_\+t}}) (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{sched__interface_8h_ac8c3be6e418c06a24c0a9d42272ac75c}{S\+C\+H\+E\+D\+\_\+\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize scheduler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{sched__interface_8h_a4d0c0d297e0d6e9fc76eb0bb109d64ac}{S\+C\+H\+E\+D\+\_\+\+Start}} (void)
+\begin{DoxyCompactList}\small\item\em Start the scheduler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the scheduler driver. 
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{sched__interface_8h_a5950a6304fb181815bb5d6e460e14575}\label{sched__interface_8h_a5950a6304fb181815bb5d6e460e14575}} 
+\index{sched\_interface.h@{sched\_interface.h}!SCHED\_task\_runnable\_t@{SCHED\_task\_runnable\_t}}
+\index{SCHED\_task\_runnable\_t@{SCHED\_task\_runnable\_t}!sched\_interface.h@{sched\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SCHED\_task\_runnable\_t}{SCHED\_task\_runnable\_t}}
+{\footnotesize\ttfamily typedef void($\ast$ S\+C\+H\+E\+D\+\_\+task\+\_\+runnable\+\_\+t) (void)}
+
+
+
+Definition at line 13 of file sched\+\_\+interface.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{sched__interface_8h_ac8c3be6e418c06a24c0a9d42272ac75c}\label{sched__interface_8h_ac8c3be6e418c06a24c0a9d42272ac75c}} 
+\index{sched\_interface.h@{sched\_interface.h}!SCHED\_Init@{SCHED\_Init}}
+\index{SCHED\_Init@{SCHED\_Init}!sched\_interface.h@{sched\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SCHED\_Init()}{SCHED\_Init()}}
+{\footnotesize\ttfamily void S\+C\+H\+E\+D\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{sched__interface_8h_a4d0c0d297e0d6e9fc76eb0bb109d64ac}\label{sched__interface_8h_a4d0c0d297e0d6e9fc76eb0bb109d64ac}} 
+\index{sched\_interface.h@{sched\_interface.h}!SCHED\_Start@{SCHED\_Start}}
+\index{SCHED\_Start@{SCHED\_Start}!sched\_interface.h@{sched\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SCHED\_Start()}{SCHED\_Start()}}
+{\footnotesize\ttfamily void S\+C\+H\+E\+D\+\_\+\+Start (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Start the scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

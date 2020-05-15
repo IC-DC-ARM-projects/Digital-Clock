@@ -1,0 +1,217 @@
+\hypertarget{_s_y_s_t_i_c_k_8h}{}\doxysection{include/\+S\+Y\+S\+T\+I\+CK.h File Reference}
+\label{_s_y_s_t_i_c_k_8h}\index{include/SYSTICK.h@{include/SYSTICK.h}}
+
+
+This file is to be used as an implementation of the Sys\+Tick driver.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a07c0cb4d0c416053fa7f46a85ada0813}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+E\+N\+A\+B\+LE}}~1U
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a62f69a8cb8b23f80936e6370b7da9328}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+D\+I\+S\+A\+B\+LE}}~0U
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a9da2f130091b816699e1df2679fa1acd}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+I\+N\+T\+E\+R\+R\+U\+P\+T\+\_\+\+E\+N\+A\+B\+LE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a80d09ac80c1c62ec83862d75694c64df}{C\+L\+O\+C\+K\+\_\+\+P\+R\+E\+S\+C\+A\+L\+E\+R\+\_\+\+A\+H\+B\+\_\+\+D\+I\+V\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a37fd5b35200c1df3f7cf23aafdcc2d3f}{C\+L\+O\+C\+K\+\_\+\+P\+R\+E\+S\+C\+A\+L\+E\+R\+\_\+\+A\+H\+B\+\_\+\+D\+I\+V\+\_\+1}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000004
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_ac2edfbf91717481e629ace13cb2ae453}{C\+L\+O\+C\+K\+\_\+\+F\+R\+E\+Q\+U\+E\+N\+C\+Y\+\_\+8\+\_\+\+M\+HZ}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})8000000\+UL
+\item 
+\#define \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_ac6b14aaada828db9652b2314280c2caa}{C\+L\+O\+C\+K\+\_\+\+F\+R\+E\+Q\+U\+E\+N\+C\+Y\+\_\+8\+\_\+\+M\+H\+Z\+\_\+\+D\+I\+V8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})1000000\+UL
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a486505c75c9c02f9f27f2d639898bbea}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize Sys\+Tick. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a1b5b3f4d9b432ebe8da61f69c8a049c6}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+Stop}} (void)
+\begin{DoxyCompactList}\small\item\em To stop Sys\+Tick. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a5b771dacec2d1efabab15d949dac5d38}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+Start}} (void)
+\begin{DoxyCompactList}\small\item\em To start Sys\+Tick. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_afd108a5daaf7cecf8fbe044cc14ea47e}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+Set\+Timers}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Timers)
+\begin{DoxyCompactList}\small\item\em Function to set tick time (ms) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_s_y_s_t_i_c_k_8h_a5417d5ade46e3b626a98f85914652792}{S\+Y\+S\+T\+I\+C\+K\+\_\+\+Set\+Call\+Back}} (void($\ast$Copy\+\_\+\+Systick\+Cbf\+\_\+t)(void))
+\begin{DoxyCompactList}\small\item\em Function callback to handle call back function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the Sys\+Tick driver. 
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_ac2edfbf91717481e629ace13cb2ae453}\label{_s_y_s_t_i_c_k_8h_ac2edfbf91717481e629ace13cb2ae453}} 
+\index{SYSTICK.h@{SYSTICK.h}!CLOCK\_FREQUENCY\_8\_MHZ@{CLOCK\_FREQUENCY\_8\_MHZ}}
+\index{CLOCK\_FREQUENCY\_8\_MHZ@{CLOCK\_FREQUENCY\_8\_MHZ}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{CLOCK\_FREQUENCY\_8\_MHZ}{CLOCK\_FREQUENCY\_8\_MHZ}}
+{\footnotesize\ttfamily \#define C\+L\+O\+C\+K\+\_\+\+F\+R\+E\+Q\+U\+E\+N\+C\+Y\+\_\+8\+\_\+\+M\+HZ~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})8000000\+UL}
+
+
+
+Definition at line 22 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_ac6b14aaada828db9652b2314280c2caa}\label{_s_y_s_t_i_c_k_8h_ac6b14aaada828db9652b2314280c2caa}} 
+\index{SYSTICK.h@{SYSTICK.h}!CLOCK\_FREQUENCY\_8\_MHZ\_DIV8@{CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}}
+\index{CLOCK\_FREQUENCY\_8\_MHZ\_DIV8@{CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}{CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}}
+{\footnotesize\ttfamily \#define C\+L\+O\+C\+K\+\_\+\+F\+R\+E\+Q\+U\+E\+N\+C\+Y\+\_\+8\+\_\+\+M\+H\+Z\+\_\+\+D\+I\+V8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})1000000\+UL}
+
+
+
+Definition at line 23 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a37fd5b35200c1df3f7cf23aafdcc2d3f}\label{_s_y_s_t_i_c_k_8h_a37fd5b35200c1df3f7cf23aafdcc2d3f}} 
+\index{SYSTICK.h@{SYSTICK.h}!CLOCK\_PRESCALER\_AHB\_DIV\_1@{CLOCK\_PRESCALER\_AHB\_DIV\_1}}
+\index{CLOCK\_PRESCALER\_AHB\_DIV\_1@{CLOCK\_PRESCALER\_AHB\_DIV\_1}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{CLOCK\_PRESCALER\_AHB\_DIV\_1}{CLOCK\_PRESCALER\_AHB\_DIV\_1}}
+{\footnotesize\ttfamily \#define C\+L\+O\+C\+K\+\_\+\+P\+R\+E\+S\+C\+A\+L\+E\+R\+\_\+\+A\+H\+B\+\_\+\+D\+I\+V\+\_\+1~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000004}
+
+
+
+Definition at line 20 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a80d09ac80c1c62ec83862d75694c64df}\label{_s_y_s_t_i_c_k_8h_a80d09ac80c1c62ec83862d75694c64df}} 
+\index{SYSTICK.h@{SYSTICK.h}!CLOCK\_PRESCALER\_AHB\_DIV\_8@{CLOCK\_PRESCALER\_AHB\_DIV\_8}}
+\index{CLOCK\_PRESCALER\_AHB\_DIV\_8@{CLOCK\_PRESCALER\_AHB\_DIV\_8}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{CLOCK\_PRESCALER\_AHB\_DIV\_8}{CLOCK\_PRESCALER\_AHB\_DIV\_8}}
+{\footnotesize\ttfamily \#define C\+L\+O\+C\+K\+\_\+\+P\+R\+E\+S\+C\+A\+L\+E\+R\+\_\+\+A\+H\+B\+\_\+\+D\+I\+V\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 19 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a62f69a8cb8b23f80936e6370b7da9328}\label{_s_y_s_t_i_c_k_8h_a62f69a8cb8b23f80936e6370b7da9328}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_DISABLE@{SYSTICK\_DISABLE}}
+\index{SYSTICK\_DISABLE@{SYSTICK\_DISABLE}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_DISABLE}{SYSTICK\_DISABLE}}
+{\footnotesize\ttfamily \#define S\+Y\+S\+T\+I\+C\+K\+\_\+\+D\+I\+S\+A\+B\+LE~0U}
+
+
+
+Definition at line 15 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a07c0cb4d0c416053fa7f46a85ada0813}\label{_s_y_s_t_i_c_k_8h_a07c0cb4d0c416053fa7f46a85ada0813}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_ENABLE@{SYSTICK\_ENABLE}}
+\index{SYSTICK\_ENABLE@{SYSTICK\_ENABLE}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_ENABLE}{SYSTICK\_ENABLE}}
+{\footnotesize\ttfamily \#define S\+Y\+S\+T\+I\+C\+K\+\_\+\+E\+N\+A\+B\+LE~1U}
+
+
+
+Definition at line 14 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a9da2f130091b816699e1df2679fa1acd}\label{_s_y_s_t_i_c_k_8h_a9da2f130091b816699e1df2679fa1acd}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_INTERRUPT\_ENABLE@{SYSTICK\_INTERRUPT\_ENABLE}}
+\index{SYSTICK\_INTERRUPT\_ENABLE@{SYSTICK\_INTERRUPT\_ENABLE}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_INTERRUPT\_ENABLE}{SYSTICK\_INTERRUPT\_ENABLE}}
+{\footnotesize\ttfamily \#define S\+Y\+S\+T\+I\+C\+K\+\_\+\+I\+N\+T\+E\+R\+R\+U\+P\+T\+\_\+\+E\+N\+A\+B\+LE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002}
+
+
+
+Definition at line 16 of file S\+Y\+S\+T\+I\+C\+K.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a486505c75c9c02f9f27f2d639898bbea}\label{_s_y_s_t_i_c_k_8h_a486505c75c9c02f9f27f2d639898bbea}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_Init@{SYSTICK\_Init}}
+\index{SYSTICK\_Init@{SYSTICK\_Init}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_Init()}{SYSTICK\_Init()}}
+{\footnotesize\ttfamily void S\+Y\+S\+T\+I\+C\+K\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize Sys\+Tick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a5417d5ade46e3b626a98f85914652792}\label{_s_y_s_t_i_c_k_8h_a5417d5ade46e3b626a98f85914652792}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_SetCallBack@{SYSTICK\_SetCallBack}}
+\index{SYSTICK\_SetCallBack@{SYSTICK\_SetCallBack}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_SetCallBack()}{SYSTICK\_SetCallBack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} S\+Y\+S\+T\+I\+C\+K\+\_\+\+Set\+Call\+Back (\begin{DoxyParamCaption}\item[{void($\ast$)(void)}]{Copy\+\_\+\+Systick\+Cbf\+\_\+t }\end{DoxyParamCaption})}
+
+
+
+Function callback to handle call back function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+\+Systick\+Cbf\+\_\+t} & (pointer to function) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+E\+\_\+\+OK \+:-\/ if the input argument is correct . ~\newline
+ (if the input pointer to function is valid) ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK \+:-\/ if there\textquotesingle{}s something wrong with the input argument . ~\newline
+ (if the input pointer to function is not valid) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_afd108a5daaf7cecf8fbe044cc14ea47e}\label{_s_y_s_t_i_c_k_8h_afd108a5daaf7cecf8fbe044cc14ea47e}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_SetTimers@{SYSTICK\_SetTimers}}
+\index{SYSTICK\_SetTimers@{SYSTICK\_SetTimers}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_SetTimers()}{SYSTICK\_SetTimers()}}
+{\footnotesize\ttfamily void S\+Y\+S\+T\+I\+C\+K\+\_\+\+Set\+Timers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Timers }\end{DoxyParamCaption})}
+
+
+
+Function to set tick time (ms) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Timer} & time in ms \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a5b771dacec2d1efabab15d949dac5d38}\label{_s_y_s_t_i_c_k_8h_a5b771dacec2d1efabab15d949dac5d38}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_Start@{SYSTICK\_Start}}
+\index{SYSTICK\_Start@{SYSTICK\_Start}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_Start()}{SYSTICK\_Start()}}
+{\footnotesize\ttfamily void S\+Y\+S\+T\+I\+C\+K\+\_\+\+Start (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+To start Sys\+Tick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_s_y_s_t_i_c_k_8h_a1b5b3f4d9b432ebe8da61f69c8a049c6}\label{_s_y_s_t_i_c_k_8h_a1b5b3f4d9b432ebe8da61f69c8a049c6}} 
+\index{SYSTICK.h@{SYSTICK.h}!SYSTICK\_Stop@{SYSTICK\_Stop}}
+\index{SYSTICK\_Stop@{SYSTICK\_Stop}!SYSTICK.h@{SYSTICK.h}}
+\doxysubsubsection{\texorpdfstring{SYSTICK\_Stop()}{SYSTICK\_Stop()}}
+{\footnotesize\ttfamily void S\+Y\+S\+T\+I\+C\+K\+\_\+\+Stop (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+To stop Sys\+Tick. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

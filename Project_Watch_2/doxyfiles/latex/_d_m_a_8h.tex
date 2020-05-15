@@ -1,0 +1,815 @@
+\hypertarget{_d_m_a_8h}{}\doxysection{include/\+D\+MA.h File Reference}
+\label{_d_m_a_8h}\index{include/DMA.h@{include/DMA.h}}
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ad9830ab8d1b3f5467f000e3a7767bcce}{D\+M\+A\+\_\+\+P\+E\+R\+I1}}~0
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA peripheral 1. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ac56192700a0b2c26489a358caf2d76fe}{D\+M\+A\+\_\+\+P\+E\+R\+I2}}~1
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA peripheral 2. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a7163a545d0ca12a84c34f7cd64ad5dea}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L1}}~0
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 1. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a00cf4fbf98f20892dcfa48e51ac0dc5f}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L2}}~1
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 2. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a977fe375ce029b779eb076ccac4b4399}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L3}}~2
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 3. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a1ff2bf05ff63cc68abece1cec995797b}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L4}}~3
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 4. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a35352670a5bb03c4384d433cb5ea9da8}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L5}}~4
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 5. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ad17e72649f3047ede480f51d4c80b5aa}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L6}}~5
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 6. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ad3b878c26e0d3b54bafb2e1876c1dddb}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L7}}~6
+\begin{DoxyCompactList}\small\item\em Selector for D\+MA channel 7. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_aebef45648957c1a19c3d8f1e125de09a}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+L\+OW}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Selector for channel priority\+: Low. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ad55411f452d56ce50bb3d67a3efb8524}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+M\+E\+D\+I\+UM}}~0x00001000
+\begin{DoxyCompactList}\small\item\em Selector for channel priority\+: Medium. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a44afe86d85ad9a888d3766c725b0b50e}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+H\+I\+GH}}~0x00002000
+\begin{DoxyCompactList}\small\item\em Selector for channel priority\+: High. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a96c32b77a39031973b2627e0ed000321}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+V\+E\+R\+Y\+\_\+\+H\+I\+GH}}~0x00003000
+\begin{DoxyCompactList}\small\item\em Selector for channel priority\+: Very High. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a82df31f9c605cd00edc51afe94ae83e2}{D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+8\+\_\+\+B\+IT}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Selector for the size of the memory data unit\+: 8-\/bit (1 byte) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a82e2deb6ac88ac4b77de6a0158084447}{D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+16\+\_\+\+B\+IT}}~0x00000400
+\begin{DoxyCompactList}\small\item\em Selector for the size of the memory data unit\+: 16-\/bit (2 bytes) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ab658e81a696730d73edec875a522b02b}{D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+32\+\_\+\+B\+IT}}~0x00000800
+\begin{DoxyCompactList}\small\item\em Selector for the size of the memory data unit\+: 32-\/bit (4 bytes) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a494300cfdc292d36c3dfb124bf18db3c}{D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+8\+\_\+\+B\+IT}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Selector for the size of the peripheral data unit\+: 8-\/bit (1 byte) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a2979e712351b5c035494d90f393489b8}{D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+16\+\_\+\+B\+IT}}~0x00000100
+\begin{DoxyCompactList}\small\item\em Selector for the size of the peripheral data unit\+: 16-\/bit (2 byte) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_af93d94950ea42beb4cd972509b3ac0cd}{D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+32\+\_\+\+B\+IT}}~0x00000200
+\begin{DoxyCompactList}\small\item\em Selector for the size of the peripheral data unit\+: 32-\/bit (4 byte) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a2f3e088f75adb086361d3c7f9698b808}{D\+M\+A\+\_\+\+D\+A\+T\+A\+\_\+\+D\+I\+R\+E\+C\+T\+I\+O\+N\+\_\+\+P\+E\+R\+I2\+M\+EM}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Select the channel transfer direction as\+: peripheral -\/$>$ memory. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_afcee510d6b8e22bc308215e2f60fa022}{D\+M\+A\+\_\+\+D\+A\+T\+A\+\_\+\+D\+I\+R\+E\+C\+T\+I\+O\+N\+\_\+\+M\+E\+M2\+P\+E\+RI}}~0x00000010
+\begin{DoxyCompactList}\small\item\em Select the channel transfer direction as\+: memory -\/$>$ peripheral. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a5e653717bf75c41631ce58b3c2c47b08}{D\+M\+A\+\_\+\+M\+E\+M2\+M\+E\+M\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the memory-\/to-\/memory mode\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a5f30c06a0f4a28685d0aa00898e290ca}{D\+M\+A\+\_\+\+M\+E\+M2\+M\+E\+M\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00004000
+\begin{DoxyCompactList}\small\item\em Control selector for the memory-\/to-\/memory mode\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_afc90d726c61f30f51970e5bf604e0bd8}{D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the memory increment mode\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a239a65167a895217c13b3dea938567d0}{D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000080
+\begin{DoxyCompactList}\small\item\em Control selector for the memory increment mode\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a6740c67d734600e296fbcec3398a55e7}{D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the peripheral increment mode\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_aefb0a1500c9ba724b01d32ff0106308c}{D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000040
+\begin{DoxyCompactList}\small\item\em Control selector for the peripheral increment mode\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_ae37afadd532d80238046d94936a78da1}{D\+M\+A\+\_\+\+C\+I\+R\+C\+U\+L\+A\+R\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the circular mode\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a58a2cc60f919b7641df7c3747f05e149}{D\+M\+A\+\_\+\+C\+I\+R\+C\+U\+L\+A\+R\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000020
+\begin{DoxyCompactList}\small\item\em Control selector for the circular mode\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a5833b08c64d204da3d05a0aab16520eb}{D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+O\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the transfer-\/error event interrupt\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a30d3e572c19a67c5d58bf75998ca1966}{D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+O\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000008
+\begin{DoxyCompactList}\small\item\em Control selector for the transfer-\/error event interrupt\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a84d21fda19d0f823ec43d26be529452a}{D\+M\+A\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the half-\/transfer event interrupt\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_aca5591532575cff125a4ec8c149a657b}{D\+M\+A\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000004
+\begin{DoxyCompactList}\small\item\em Control selector for the half-\/transfer event interrupt\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a89a73ee9d44cccae99f7ce294f5c0811}{D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+T\+E\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the transfer-\/complete event interrupt\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a56327e9e26cc014b7c68832bb0148d2a}{D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+T\+E\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000002
+\begin{DoxyCompactList}\small\item\em Control selector for the transfer-\/complete event interrupt\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a26fbc7ff7a21185d5c42f984050dcb93}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF}}~0x00000000
+\begin{DoxyCompactList}\small\item\em Control selector for the channel state\+: off. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a802ff4de3b830cd513b4737670df5f0b}{D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON}}~0x00000001
+\begin{DoxyCompactList}\small\item\em Control selector for the channel state\+: on. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_aa24f0a941dcc02f093bfd47bf423ec23}{D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+OR}}~0
+\begin{DoxyCompactList}\small\item\em Selector for the callback trigger event type\+: transfer-\/error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a207c21356c594b0ad5b833b967acf3bf}{D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+TE}}~1
+\begin{DoxyCompactList}\small\item\em Selector for the callback trigger event type\+: transfer-\/complete. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{_d_m_a_8h_a2edfba4325a0a1be3a7c28e7e621cea6}{D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+ER}}~2
+\begin{DoxyCompactList}\small\item\em Selector for the callback trigger event type\+: half-\/transfer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \mbox{\hyperlink{_d_m_a_8h_a1be9cfe6d1b3f5793f67529401c47fb0}{D\+M\+A\+\_\+\+Callback\+\_\+t}}) (void)
+\begin{DoxyCompactList}\small\item\em D\+MA callback type, used when registering a channel event callback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_d_m_a_8h_a654357f120837f238d9aac58cafc5a66}{D\+M\+A\+\_\+\+Init\+Channel}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\begin{DoxyCompactList}\small\item\em Initialize a D\+MA channel and reset its configurations. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_d_m_a_8h_a5f905698adb3a32dff6bb3cc83ca40d7}{D\+M\+A\+\_\+\+Get\+Is\+Error\+Transfer}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\begin{DoxyCompactList}\small\item\em Get the state of the transfer-\/error channel flag. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_d_m_a_8h_add6f6497b5dc1d097db7c9c516055ccb}{D\+M\+A\+\_\+\+Get\+Is\+Half\+Transfer}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\begin{DoxyCompactList}\small\item\em Get the state of the half-\/transfer channel flag. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_d_m_a_8h_a2696645f2e31dbae9151bfb455b43e6b}{D\+M\+A\+\_\+\+Get\+Is\+Transfer\+Complete}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\begin{DoxyCompactList}\small\item\em Get the state of the transfer-\/complete channel flag. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_d_m_a_8h_aeb0770674a50bd619b9500cf746c4a9a}{D\+M\+A\+\_\+\+Get\+Is\+Global\+Interrupt}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\begin{DoxyCompactList}\small\item\em Get the state of the global channel flag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_d_m_a_8h_a4eec5fe47f78d37893e54e6135c41eaf}{D\+M\+A\+\_\+\+Config\+Channel}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg)
+\item 
+void \mbox{\hyperlink{_d_m_a_8h_a5ef40ba85e22444400df3b9d5385e249}{D\+M\+A\+\_\+\+Control\+Channel}} (const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$cfg, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} channel\+\_\+control)
+\begin{DoxyCompactList}\small\item\em Enable/\+Disable a channel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_d_m_a_8h_a2edfba4325a0a1be3a7c28e7e621cea6}\label{_d_m_a_8h_a2edfba4325a0a1be3a7c28e7e621cea6}} 
+\index{DMA.h@{DMA.h}!DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER@{DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER}}
+\index{DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER@{DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER}{DMA\_CALLBACK\_TYPE\_HALF\_TRANSFER}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+ER~2}
+
+
+
+Selector for the callback trigger event type\+: half-\/transfer. 
+
+
+
+Definition at line 403 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a207c21356c594b0ad5b833b967acf3bf}\label{_d_m_a_8h_a207c21356c594b0ad5b833b967acf3bf}} 
+\index{DMA.h@{DMA.h}!DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE@{DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE}}
+\index{DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE@{DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE}{DMA\_CALLBACK\_TYPE\_TRANSFER\_COMPLETE}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+TE~1}
+
+
+
+Selector for the callback trigger event type\+: transfer-\/complete. 
+
+
+
+Definition at line 397 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_aa24f0a941dcc02f093bfd47bf423ec23}\label{_d_m_a_8h_aa24f0a941dcc02f093bfd47bf423ec23}} 
+\index{DMA.h@{DMA.h}!DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR@{DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR}}
+\index{DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR@{DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR}{DMA\_CALLBACK\_TYPE\_TRANSFER\_ERROR}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+A\+L\+L\+B\+A\+C\+K\+\_\+\+T\+Y\+P\+E\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+OR~0}
+
+
+
+Selector for the callback trigger event type\+: transfer-\/error. 
+
+
+
+Definition at line 391 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a7163a545d0ca12a84c34f7cd64ad5dea}\label{_d_m_a_8h_a7163a545d0ca12a84c34f7cd64ad5dea}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL1@{DMA\_CHANNEL1}}
+\index{DMA\_CHANNEL1@{DMA\_CHANNEL1}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL1}{DMA\_CHANNEL1}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L1~0}
+
+
+
+Selector for D\+MA channel 1. 
+
+
+
+Definition at line 171 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a00cf4fbf98f20892dcfa48e51ac0dc5f}\label{_d_m_a_8h_a00cf4fbf98f20892dcfa48e51ac0dc5f}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL2@{DMA\_CHANNEL2}}
+\index{DMA\_CHANNEL2@{DMA\_CHANNEL2}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL2}{DMA\_CHANNEL2}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L2~1}
+
+
+
+Selector for D\+MA channel 2. 
+
+
+
+Definition at line 177 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a977fe375ce029b779eb076ccac4b4399}\label{_d_m_a_8h_a977fe375ce029b779eb076ccac4b4399}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL3@{DMA\_CHANNEL3}}
+\index{DMA\_CHANNEL3@{DMA\_CHANNEL3}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL3}{DMA\_CHANNEL3}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L3~2}
+
+
+
+Selector for D\+MA channel 3. 
+
+
+
+Definition at line 183 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a1ff2bf05ff63cc68abece1cec995797b}\label{_d_m_a_8h_a1ff2bf05ff63cc68abece1cec995797b}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL4@{DMA\_CHANNEL4}}
+\index{DMA\_CHANNEL4@{DMA\_CHANNEL4}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL4}{DMA\_CHANNEL4}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L4~3}
+
+
+
+Selector for D\+MA channel 4. 
+
+
+
+Definition at line 189 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a35352670a5bb03c4384d433cb5ea9da8}\label{_d_m_a_8h_a35352670a5bb03c4384d433cb5ea9da8}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL5@{DMA\_CHANNEL5}}
+\index{DMA\_CHANNEL5@{DMA\_CHANNEL5}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL5}{DMA\_CHANNEL5}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L5~4}
+
+
+
+Selector for D\+MA channel 5. 
+
+
+
+Definition at line 195 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ad17e72649f3047ede480f51d4c80b5aa}\label{_d_m_a_8h_ad17e72649f3047ede480f51d4c80b5aa}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL6@{DMA\_CHANNEL6}}
+\index{DMA\_CHANNEL6@{DMA\_CHANNEL6}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL6}{DMA\_CHANNEL6}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L6~5}
+
+
+
+Selector for D\+MA channel 6. 
+
+
+
+Definition at line 201 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ad3b878c26e0d3b54bafb2e1876c1dddb}\label{_d_m_a_8h_ad3b878c26e0d3b54bafb2e1876c1dddb}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL7@{DMA\_CHANNEL7}}
+\index{DMA\_CHANNEL7@{DMA\_CHANNEL7}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL7}{DMA\_CHANNEL7}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L7~6}
+
+
+
+Selector for D\+MA channel 7. 
+
+
+
+Definition at line 207 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a26fbc7ff7a21185d5c42f984050dcb93}\label{_d_m_a_8h_a26fbc7ff7a21185d5c42f984050dcb93}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_CONTROL\_OFF@{DMA\_CHANNEL\_CONTROL\_OFF}}
+\index{DMA\_CHANNEL\_CONTROL\_OFF@{DMA\_CHANNEL\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_CONTROL\_OFF}{DMA\_CHANNEL\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the channel state\+: off. 
+
+
+
+Definition at line 377 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a802ff4de3b830cd513b4737670df5f0b}\label{_d_m_a_8h_a802ff4de3b830cd513b4737670df5f0b}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_CONTROL\_ON@{DMA\_CHANNEL\_CONTROL\_ON}}
+\index{DMA\_CHANNEL\_CONTROL\_ON@{DMA\_CHANNEL\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_CONTROL\_ON}{DMA\_CHANNEL\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000001}
+
+
+
+Control selector for the channel state\+: on. 
+
+
+
+Definition at line 383 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a44afe86d85ad9a888d3766c725b0b50e}\label{_d_m_a_8h_a44afe86d85ad9a888d3766c725b0b50e}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_PRIORITY\_HIGH@{DMA\_CHANNEL\_PRIORITY\_HIGH}}
+\index{DMA\_CHANNEL\_PRIORITY\_HIGH@{DMA\_CHANNEL\_PRIORITY\_HIGH}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_PRIORITY\_HIGH}{DMA\_CHANNEL\_PRIORITY\_HIGH}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+H\+I\+GH~0x00002000}
+
+
+
+Selector for channel priority\+: High. 
+
+
+
+Definition at line 227 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_aebef45648957c1a19c3d8f1e125de09a}\label{_d_m_a_8h_aebef45648957c1a19c3d8f1e125de09a}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_PRIORITY\_LOW@{DMA\_CHANNEL\_PRIORITY\_LOW}}
+\index{DMA\_CHANNEL\_PRIORITY\_LOW@{DMA\_CHANNEL\_PRIORITY\_LOW}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_PRIORITY\_LOW}{DMA\_CHANNEL\_PRIORITY\_LOW}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+L\+OW~0x00000000}
+
+
+
+Selector for channel priority\+: Low. 
+
+
+
+Definition at line 215 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ad55411f452d56ce50bb3d67a3efb8524}\label{_d_m_a_8h_ad55411f452d56ce50bb3d67a3efb8524}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_PRIORITY\_MEDIUM@{DMA\_CHANNEL\_PRIORITY\_MEDIUM}}
+\index{DMA\_CHANNEL\_PRIORITY\_MEDIUM@{DMA\_CHANNEL\_PRIORITY\_MEDIUM}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_PRIORITY\_MEDIUM}{DMA\_CHANNEL\_PRIORITY\_MEDIUM}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+M\+E\+D\+I\+UM~0x00001000}
+
+
+
+Selector for channel priority\+: Medium. 
+
+
+
+Definition at line 221 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a96c32b77a39031973b2627e0ed000321}\label{_d_m_a_8h_a96c32b77a39031973b2627e0ed000321}} 
+\index{DMA.h@{DMA.h}!DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH@{DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH}}
+\index{DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH@{DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH}{DMA\_CHANNEL\_PRIORITY\_VERY\_HIGH}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+P\+R\+I\+O\+R\+I\+T\+Y\+\_\+\+V\+E\+R\+Y\+\_\+\+H\+I\+GH~0x00003000}
+
+
+
+Selector for channel priority\+: Very High. 
+
+
+
+Definition at line 233 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ae37afadd532d80238046d94936a78da1}\label{_d_m_a_8h_ae37afadd532d80238046d94936a78da1}} 
+\index{DMA.h@{DMA.h}!DMA\_CIRCULAR\_MODE\_CONTROL\_OFF@{DMA\_CIRCULAR\_MODE\_CONTROL\_OFF}}
+\index{DMA\_CIRCULAR\_MODE\_CONTROL\_OFF@{DMA\_CIRCULAR\_MODE\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CIRCULAR\_MODE\_CONTROL\_OFF}{DMA\_CIRCULAR\_MODE\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+I\+R\+C\+U\+L\+A\+R\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the circular mode\+: off. 
+
+
+
+Definition at line 329 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a58a2cc60f919b7641df7c3747f05e149}\label{_d_m_a_8h_a58a2cc60f919b7641df7c3747f05e149}} 
+\index{DMA.h@{DMA.h}!DMA\_CIRCULAR\_MODE\_CONTROL\_ON@{DMA\_CIRCULAR\_MODE\_CONTROL\_ON}}
+\index{DMA\_CIRCULAR\_MODE\_CONTROL\_ON@{DMA\_CIRCULAR\_MODE\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_CIRCULAR\_MODE\_CONTROL\_ON}{DMA\_CIRCULAR\_MODE\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+C\+I\+R\+C\+U\+L\+A\+R\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000020}
+
+
+
+Control selector for the circular mode\+: on. 
+
+
+
+Definition at line 335 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_afcee510d6b8e22bc308215e2f60fa022}\label{_d_m_a_8h_afcee510d6b8e22bc308215e2f60fa022}} 
+\index{DMA.h@{DMA.h}!DMA\_DATA\_DIRECTION\_MEM2PERI@{DMA\_DATA\_DIRECTION\_MEM2PERI}}
+\index{DMA\_DATA\_DIRECTION\_MEM2PERI@{DMA\_DATA\_DIRECTION\_MEM2PERI}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_DATA\_DIRECTION\_MEM2PERI}{DMA\_DATA\_DIRECTION\_MEM2PERI}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+D\+A\+T\+A\+\_\+\+D\+I\+R\+E\+C\+T\+I\+O\+N\+\_\+\+M\+E\+M2\+P\+E\+RI~0x00000010}
+
+
+
+Select the channel transfer direction as\+: memory -\/$>$ peripheral. 
+
+
+
+Definition at line 285 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a2f3e088f75adb086361d3c7f9698b808}\label{_d_m_a_8h_a2f3e088f75adb086361d3c7f9698b808}} 
+\index{DMA.h@{DMA.h}!DMA\_DATA\_DIRECTION\_PERI2MEM@{DMA\_DATA\_DIRECTION\_PERI2MEM}}
+\index{DMA\_DATA\_DIRECTION\_PERI2MEM@{DMA\_DATA\_DIRECTION\_PERI2MEM}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_DATA\_DIRECTION\_PERI2MEM}{DMA\_DATA\_DIRECTION\_PERI2MEM}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+D\+A\+T\+A\+\_\+\+D\+I\+R\+E\+C\+T\+I\+O\+N\+\_\+\+P\+E\+R\+I2\+M\+EM~0x00000000}
+
+
+
+Select the channel transfer direction as\+: peripheral -\/$>$ memory. 
+
+
+
+Definition at line 279 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a84d21fda19d0f823ec43d26be529452a}\label{_d_m_a_8h_a84d21fda19d0f823ec43d26be529452a}} 
+\index{DMA.h@{DMA.h}!DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF@{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF}}
+\index{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF@{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF}{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the half-\/transfer event interrupt\+: off. 
+
+
+
+Definition at line 353 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_aca5591532575cff125a4ec8c149a657b}\label{_d_m_a_8h_aca5591532575cff125a4ec8c149a657b}} 
+\index{DMA.h@{DMA.h}!DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON@{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON}}
+\index{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON@{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON}{DMA\_HALF\_TRANSFER\_INT\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+H\+A\+L\+F\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000004}
+
+
+
+Control selector for the half-\/transfer event interrupt\+: on. 
+
+
+
+Definition at line 359 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a5e653717bf75c41631ce58b3c2c47b08}\label{_d_m_a_8h_a5e653717bf75c41631ce58b3c2c47b08}} 
+\index{DMA.h@{DMA.h}!DMA\_MEM2MEM\_MODE\_CONTROL\_OFF@{DMA\_MEM2MEM\_MODE\_CONTROL\_OFF}}
+\index{DMA\_MEM2MEM\_MODE\_CONTROL\_OFF@{DMA\_MEM2MEM\_MODE\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEM2MEM\_MODE\_CONTROL\_OFF}{DMA\_MEM2MEM\_MODE\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M2\+M\+E\+M\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the memory-\/to-\/memory mode\+: off. 
+
+
+
+Definition at line 293 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a5f30c06a0f4a28685d0aa00898e290ca}\label{_d_m_a_8h_a5f30c06a0f4a28685d0aa00898e290ca}} 
+\index{DMA.h@{DMA.h}!DMA\_MEM2MEM\_MODE\_CONTROL\_ON@{DMA\_MEM2MEM\_MODE\_CONTROL\_ON}}
+\index{DMA\_MEM2MEM\_MODE\_CONTROL\_ON@{DMA\_MEM2MEM\_MODE\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEM2MEM\_MODE\_CONTROL\_ON}{DMA\_MEM2MEM\_MODE\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M2\+M\+E\+M\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00004000}
+
+
+
+Control selector for the memory-\/to-\/memory mode\+: on. 
+
+
+
+Definition at line 299 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_afc90d726c61f30f51970e5bf604e0bd8}\label{_d_m_a_8h_afc90d726c61f30f51970e5bf604e0bd8}} 
+\index{DMA.h@{DMA.h}!DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF@{DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF}}
+\index{DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF@{DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF}{DMA\_MEMORY\_INC\_MODE\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the memory increment mode\+: off. 
+
+
+
+Definition at line 305 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a239a65167a895217c13b3dea938567d0}\label{_d_m_a_8h_a239a65167a895217c13b3dea938567d0}} 
+\index{DMA.h@{DMA.h}!DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON@{DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON}}
+\index{DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON@{DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON}{DMA\_MEMORY\_INC\_MODE\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000080}
+
+
+
+Control selector for the memory increment mode\+: on. 
+
+
+
+Definition at line 311 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a82e2deb6ac88ac4b77de6a0158084447}\label{_d_m_a_8h_a82e2deb6ac88ac4b77de6a0158084447}} 
+\index{DMA.h@{DMA.h}!DMA\_MEMORY\_SIZE\_16\_BIT@{DMA\_MEMORY\_SIZE\_16\_BIT}}
+\index{DMA\_MEMORY\_SIZE\_16\_BIT@{DMA\_MEMORY\_SIZE\_16\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEMORY\_SIZE\_16\_BIT}{DMA\_MEMORY\_SIZE\_16\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+16\+\_\+\+B\+IT~0x00000400}
+
+
+
+Selector for the size of the memory data unit\+: 16-\/bit (2 bytes) 
+
+
+
+Definition at line 247 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ab658e81a696730d73edec875a522b02b}\label{_d_m_a_8h_ab658e81a696730d73edec875a522b02b}} 
+\index{DMA.h@{DMA.h}!DMA\_MEMORY\_SIZE\_32\_BIT@{DMA\_MEMORY\_SIZE\_32\_BIT}}
+\index{DMA\_MEMORY\_SIZE\_32\_BIT@{DMA\_MEMORY\_SIZE\_32\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEMORY\_SIZE\_32\_BIT}{DMA\_MEMORY\_SIZE\_32\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+32\+\_\+\+B\+IT~0x00000800}
+
+
+
+Selector for the size of the memory data unit\+: 32-\/bit (4 bytes) 
+
+
+
+Definition at line 253 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a82df31f9c605cd00edc51afe94ae83e2}\label{_d_m_a_8h_a82df31f9c605cd00edc51afe94ae83e2}} 
+\index{DMA.h@{DMA.h}!DMA\_MEMORY\_SIZE\_8\_BIT@{DMA\_MEMORY\_SIZE\_8\_BIT}}
+\index{DMA\_MEMORY\_SIZE\_8\_BIT@{DMA\_MEMORY\_SIZE\_8\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_MEMORY\_SIZE\_8\_BIT}{DMA\_MEMORY\_SIZE\_8\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+M\+E\+M\+O\+R\+Y\+\_\+\+S\+I\+Z\+E\+\_\+8\+\_\+\+B\+IT~0x00000000}
+
+
+
+Selector for the size of the memory data unit\+: 8-\/bit (1 byte) 
+
+
+
+Definition at line 241 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ad9830ab8d1b3f5467f000e3a7767bcce}\label{_d_m_a_8h_ad9830ab8d1b3f5467f000e3a7767bcce}} 
+\index{DMA.h@{DMA.h}!DMA\_PERI1@{DMA\_PERI1}}
+\index{DMA\_PERI1@{DMA\_PERI1}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERI1}{DMA\_PERI1}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I1~0}
+
+
+
+Selector for D\+MA peripheral 1. 
+
+
+
+Definition at line 157 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_ac56192700a0b2c26489a358caf2d76fe}\label{_d_m_a_8h_ac56192700a0b2c26489a358caf2d76fe}} 
+\index{DMA.h@{DMA.h}!DMA\_PERI2@{DMA\_PERI2}}
+\index{DMA\_PERI2@{DMA\_PERI2}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERI2}{DMA\_PERI2}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I2~1}
+
+
+
+Selector for D\+MA peripheral 2. 
+
+
+
+Definition at line 163 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a6740c67d734600e296fbcec3398a55e7}\label{_d_m_a_8h_a6740c67d734600e296fbcec3398a55e7}} 
+\index{DMA.h@{DMA.h}!DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF@{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF}}
+\index{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF@{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF}{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the peripheral increment mode\+: off. 
+
+
+
+Definition at line 317 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_aefb0a1500c9ba724b01d32ff0106308c}\label{_d_m_a_8h_aefb0a1500c9ba724b01d32ff0106308c}} 
+\index{DMA.h@{DMA.h}!DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON@{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON}}
+\index{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON@{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON}{DMA\_PERIPHERAL\_INC\_MODE\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+I\+N\+C\+\_\+\+M\+O\+D\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000040}
+
+
+
+Control selector for the peripheral increment mode\+: on. 
+
+
+
+Definition at line 323 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a2979e712351b5c035494d90f393489b8}\label{_d_m_a_8h_a2979e712351b5c035494d90f393489b8}} 
+\index{DMA.h@{DMA.h}!DMA\_PERIPHERAL\_SIZE\_16\_BIT@{DMA\_PERIPHERAL\_SIZE\_16\_BIT}}
+\index{DMA\_PERIPHERAL\_SIZE\_16\_BIT@{DMA\_PERIPHERAL\_SIZE\_16\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERIPHERAL\_SIZE\_16\_BIT}{DMA\_PERIPHERAL\_SIZE\_16\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+16\+\_\+\+B\+IT~0x00000100}
+
+
+
+Selector for the size of the peripheral data unit\+: 16-\/bit (2 byte) 
+
+
+
+Definition at line 265 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_af93d94950ea42beb4cd972509b3ac0cd}\label{_d_m_a_8h_af93d94950ea42beb4cd972509b3ac0cd}} 
+\index{DMA.h@{DMA.h}!DMA\_PERIPHERAL\_SIZE\_32\_BIT@{DMA\_PERIPHERAL\_SIZE\_32\_BIT}}
+\index{DMA\_PERIPHERAL\_SIZE\_32\_BIT@{DMA\_PERIPHERAL\_SIZE\_32\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERIPHERAL\_SIZE\_32\_BIT}{DMA\_PERIPHERAL\_SIZE\_32\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+32\+\_\+\+B\+IT~0x00000200}
+
+
+
+Selector for the size of the peripheral data unit\+: 32-\/bit (4 byte) 
+
+
+
+Definition at line 271 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a494300cfdc292d36c3dfb124bf18db3c}\label{_d_m_a_8h_a494300cfdc292d36c3dfb124bf18db3c}} 
+\index{DMA.h@{DMA.h}!DMA\_PERIPHERAL\_SIZE\_8\_BIT@{DMA\_PERIPHERAL\_SIZE\_8\_BIT}}
+\index{DMA\_PERIPHERAL\_SIZE\_8\_BIT@{DMA\_PERIPHERAL\_SIZE\_8\_BIT}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_PERIPHERAL\_SIZE\_8\_BIT}{DMA\_PERIPHERAL\_SIZE\_8\_BIT}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+P\+E\+R\+I\+P\+H\+E\+R\+A\+L\+\_\+\+S\+I\+Z\+E\+\_\+8\+\_\+\+B\+IT~0x00000000}
+
+
+
+Selector for the size of the peripheral data unit\+: 8-\/bit (1 byte) 
+
+
+
+Definition at line 259 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a89a73ee9d44cccae99f7ce294f5c0811}\label{_d_m_a_8h_a89a73ee9d44cccae99f7ce294f5c0811}} 
+\index{DMA.h@{DMA.h}!DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF@{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF}}
+\index{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF@{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF}{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+T\+E\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the transfer-\/complete event interrupt\+: off. 
+
+
+
+Definition at line 365 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a56327e9e26cc014b7c68832bb0148d2a}\label{_d_m_a_8h_a56327e9e26cc014b7c68832bb0148d2a}} 
+\index{DMA.h@{DMA.h}!DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON@{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON}}
+\index{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON@{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON}{DMA\_TRANSFER\_COMPLETE\_INT\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+C\+O\+M\+P\+L\+E\+T\+E\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000002}
+
+
+
+Control selector for the transfer-\/complete event interrupt\+: on. 
+
+
+
+Definition at line 371 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a5833b08c64d204da3d05a0aab16520eb}\label{_d_m_a_8h_a5833b08c64d204da3d05a0aab16520eb}} 
+\index{DMA.h@{DMA.h}!DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF@{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF}}
+\index{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF@{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF}{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_OFF}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+O\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~0x00000000}
+
+
+
+Control selector for the transfer-\/error event interrupt\+: off. 
+
+
+
+Definition at line 341 of file D\+M\+A.\+h.
+
+\mbox{\Hypertarget{_d_m_a_8h_a30d3e572c19a67c5d58bf75998ca1966}\label{_d_m_a_8h_a30d3e572c19a67c5d58bf75998ca1966}} 
+\index{DMA.h@{DMA.h}!DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON@{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON}}
+\index{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON@{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON}{DMA\_TRANSFER\_ERROR\_INT\_CONTROL\_ON}}
+{\footnotesize\ttfamily \#define D\+M\+A\+\_\+\+T\+R\+A\+N\+S\+F\+E\+R\+\_\+\+E\+R\+R\+O\+R\+\_\+\+I\+N\+T\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON~0x00000008}
+
+
+
+Control selector for the transfer-\/error event interrupt\+: on. 
+
+
+
+Definition at line 347 of file D\+M\+A.\+h.
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_d_m_a_8h_a1be9cfe6d1b3f5793f67529401c47fb0}\label{_d_m_a_8h_a1be9cfe6d1b3f5793f67529401c47fb0}} 
+\index{DMA.h@{DMA.h}!DMA\_Callback\_t@{DMA\_Callback\_t}}
+\index{DMA\_Callback\_t@{DMA\_Callback\_t}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_Callback\_t}{DMA\_Callback\_t}}
+{\footnotesize\ttfamily typedef void($\ast$ D\+M\+A\+\_\+\+Callback\+\_\+t) (void)}
+
+
+
+D\+MA callback type, used when registering a channel event callback. 
+
+
+
+Definition at line 9 of file D\+M\+A.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_d_m_a_8h_a4eec5fe47f78d37893e54e6135c41eaf}\label{_d_m_a_8h_a4eec5fe47f78d37893e54e6135c41eaf}} 
+\index{DMA.h@{DMA.h}!DMA\_ConfigChannel@{DMA\_ConfigChannel}}
+\index{DMA\_ConfigChannel@{DMA\_ConfigChannel}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_ConfigChannel()}{DMA\_ConfigChannel()}}
+{\footnotesize\ttfamily void D\+M\+A\+\_\+\+Config\+Channel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_d_m_a_8h_a5ef40ba85e22444400df3b9d5385e249}\label{_d_m_a_8h_a5ef40ba85e22444400df3b9d5385e249}} 
+\index{DMA.h@{DMA.h}!DMA\_ControlChannel@{DMA\_ControlChannel}}
+\index{DMA\_ControlChannel@{DMA\_ControlChannel}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_ControlChannel()}{DMA\_ControlChannel()}}
+{\footnotesize\ttfamily void D\+M\+A\+\_\+\+Control\+Channel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{channel\+\_\+control }\end{DoxyParamCaption})}
+
+
+
+Enable/\+Disable a channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+{\em channel\+\_\+control} & The state of the channel\+:~\newline
+ D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+O\+FF~\newline
+ D\+M\+A\+\_\+\+C\+H\+A\+N\+N\+E\+L\+\_\+\+C\+O\+N\+T\+R\+O\+L\+\_\+\+ON \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_d_m_a_8h_a5f905698adb3a32dff6bb3cc83ca40d7}\label{_d_m_a_8h_a5f905698adb3a32dff6bb3cc83ca40d7}} 
+\index{DMA.h@{DMA.h}!DMA\_GetIsErrorTransfer@{DMA\_GetIsErrorTransfer}}
+\index{DMA\_GetIsErrorTransfer@{DMA\_GetIsErrorTransfer}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_GetIsErrorTransfer()}{DMA\_GetIsErrorTransfer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} D\+M\+A\+\_\+\+Get\+Is\+Error\+Transfer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+
+
+Get the state of the transfer-\/error channel flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value\+: 1 =$>$ a transfer-\/error has occurred, 0 =$>$ no transfer-\/error occurred 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_m_a_8h_aeb0770674a50bd619b9500cf746c4a9a}\label{_d_m_a_8h_aeb0770674a50bd619b9500cf746c4a9a}} 
+\index{DMA.h@{DMA.h}!DMA\_GetIsGlobalInterrupt@{DMA\_GetIsGlobalInterrupt}}
+\index{DMA\_GetIsGlobalInterrupt@{DMA\_GetIsGlobalInterrupt}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_GetIsGlobalInterrupt()}{DMA\_GetIsGlobalInterrupt()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} D\+M\+A\+\_\+\+Get\+Is\+Global\+Interrupt (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+
+
+Get the state of the global channel flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value\+: 1 =$>$ an event has happened on the channel\+:~\newline
+
+\begin{DoxyItemize}
+\item Transfer error event (use D\+M\+A\+\_\+\+Get\+Is\+Error\+Transfer),~\newline
+
+\item Half transfer complete event (use D\+M\+A\+\_\+\+Get\+Is\+Half\+Transfer),~\newline
+
+\item Transfer complete event (use D\+M\+A\+\_\+\+Get\+Is\+Transfer\+Complete) 0 =$>$ no event happened on the channel 
+\end{DoxyItemize}
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_m_a_8h_add6f6497b5dc1d097db7c9c516055ccb}\label{_d_m_a_8h_add6f6497b5dc1d097db7c9c516055ccb}} 
+\index{DMA.h@{DMA.h}!DMA\_GetIsHalfTransfer@{DMA\_GetIsHalfTransfer}}
+\index{DMA\_GetIsHalfTransfer@{DMA\_GetIsHalfTransfer}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_GetIsHalfTransfer()}{DMA\_GetIsHalfTransfer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} D\+M\+A\+\_\+\+Get\+Is\+Half\+Transfer (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+
+
+Get the state of the half-\/transfer channel flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value\+: 1 =$>$ half-\/transfer has finished, 0 =$>$ half-\/transfer didn\textquotesingle{}t finish 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_m_a_8h_a2696645f2e31dbae9151bfb455b43e6b}\label{_d_m_a_8h_a2696645f2e31dbae9151bfb455b43e6b}} 
+\index{DMA.h@{DMA.h}!DMA\_GetIsTransferComplete@{DMA\_GetIsTransferComplete}}
+\index{DMA\_GetIsTransferComplete@{DMA\_GetIsTransferComplete}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_GetIsTransferComplete()}{DMA\_GetIsTransferComplete()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} D\+M\+A\+\_\+\+Get\+Is\+Transfer\+Complete (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+
+
+Get the state of the transfer-\/complete channel flag. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boolean value\+: 1 =$>$ transfer has finished completely, 0 =$>$ transfer didn\textquotesingle{}t finish completely 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_d_m_a_8h_a654357f120837f238d9aac58cafc5a66}\label{_d_m_a_8h_a654357f120837f238d9aac58cafc5a66}} 
+\index{DMA.h@{DMA.h}!DMA\_InitChannel@{DMA\_InitChannel}}
+\index{DMA\_InitChannel@{DMA\_InitChannel}!DMA.h@{DMA.h}}
+\doxysubsubsection{\texorpdfstring{DMA\_InitChannel()}{DMA\_InitChannel()}}
+{\footnotesize\ttfamily void D\+M\+A\+\_\+\+Init\+Channel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} $\ast$}]{cfg }\end{DoxyParamCaption})}
+
+
+
+Initialize a D\+MA channel and reset its configurations. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cfg} & Reference to an initialized \mbox{\hyperlink{struct_d_m_a___channel_cfg__t}{D\+M\+A\+\_\+\+Channel\+Cfg\+\_\+t}} object that holds all the channel configurations \\
+\hline
+\end{DoxyParams}

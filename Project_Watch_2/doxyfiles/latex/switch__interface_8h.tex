@@ -1,0 +1,120 @@
+\hypertarget{switch__interface_8h}{}\doxysection{include/switch\+\_\+interface.h File Reference}
+\label{switch__interface_8h}\index{include/switch\_interface.h@{include/switch\_interface.h}}
+
+
+This file is to be used as an implementation of the switch driver.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{switch__interface_8h_aee0a92534030b96677d5c5f9740dd5d8}{S\+W\+I\+T\+C\+H\+\_\+\+P\+R\+E\+S\+S\+ED}}~1
+\item 
+\#define \mbox{\hyperlink{switch__interface_8h_ad4231188259c0700932acfe446347762}{S\+W\+I\+T\+C\+H\+\_\+\+U\+N\+P\+R\+E\+S\+S\+ED}}~0
+\item 
+\#define \mbox{\hyperlink{switch__interface_8h_aa44ed606443190257cc76ebf87e85628}{S\+W\+I\+T\+C\+H\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+L\+OW}}~0
+\item 
+\#define \mbox{\hyperlink{switch__interface_8h_a830a2f3d48e4205184571a8cc927dd70}{S\+W\+I\+T\+C\+H\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+H\+I\+GH}}~1
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{switch__interface_8h_a1c787c932acfeaea4ff8f7ce68b315bb}{Switch\+\_\+\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize all the switches\+: pin direction, default pull up/down. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{switch__interface_8h_a864e7973a429d51bab6840ff7549b296}{Switch\+\_\+\+Get\+Reading}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} switch\+Num)
+\begin{DoxyCompactList}\small\item\em Return the state of the switch. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the switch driver. 
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{switch__interface_8h_a830a2f3d48e4205184571a8cc927dd70}\label{switch__interface_8h_a830a2f3d48e4205184571a8cc927dd70}} 
+\index{switch\_interface.h@{switch\_interface.h}!SWITCH\_ACTIVE\_HIGH@{SWITCH\_ACTIVE\_HIGH}}
+\index{SWITCH\_ACTIVE\_HIGH@{SWITCH\_ACTIVE\_HIGH}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_ACTIVE\_HIGH}{SWITCH\_ACTIVE\_HIGH}}
+{\footnotesize\ttfamily \#define S\+W\+I\+T\+C\+H\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+H\+I\+GH~1}
+
+
+
+Definition at line 19 of file switch\+\_\+interface.\+h.
+
+\mbox{\Hypertarget{switch__interface_8h_aa44ed606443190257cc76ebf87e85628}\label{switch__interface_8h_aa44ed606443190257cc76ebf87e85628}} 
+\index{switch\_interface.h@{switch\_interface.h}!SWITCH\_ACTIVE\_LOW@{SWITCH\_ACTIVE\_LOW}}
+\index{SWITCH\_ACTIVE\_LOW@{SWITCH\_ACTIVE\_LOW}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_ACTIVE\_LOW}{SWITCH\_ACTIVE\_LOW}}
+{\footnotesize\ttfamily \#define S\+W\+I\+T\+C\+H\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+L\+OW~0}
+
+
+
+Definition at line 18 of file switch\+\_\+interface.\+h.
+
+\mbox{\Hypertarget{switch__interface_8h_aee0a92534030b96677d5c5f9740dd5d8}\label{switch__interface_8h_aee0a92534030b96677d5c5f9740dd5d8}} 
+\index{switch\_interface.h@{switch\_interface.h}!SWITCH\_PRESSED@{SWITCH\_PRESSED}}
+\index{SWITCH\_PRESSED@{SWITCH\_PRESSED}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_PRESSED}{SWITCH\_PRESSED}}
+{\footnotesize\ttfamily \#define S\+W\+I\+T\+C\+H\+\_\+\+P\+R\+E\+S\+S\+ED~1}
+
+
+
+Definition at line 14 of file switch\+\_\+interface.\+h.
+
+\mbox{\Hypertarget{switch__interface_8h_ad4231188259c0700932acfe446347762}\label{switch__interface_8h_ad4231188259c0700932acfe446347762}} 
+\index{switch\_interface.h@{switch\_interface.h}!SWITCH\_UNPRESSED@{SWITCH\_UNPRESSED}}
+\index{SWITCH\_UNPRESSED@{SWITCH\_UNPRESSED}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{SWITCH\_UNPRESSED}{SWITCH\_UNPRESSED}}
+{\footnotesize\ttfamily \#define S\+W\+I\+T\+C\+H\+\_\+\+U\+N\+P\+R\+E\+S\+S\+ED~0}
+
+
+
+Definition at line 15 of file switch\+\_\+interface.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{switch__interface_8h_a864e7973a429d51bab6840ff7549b296}\label{switch__interface_8h_a864e7973a429d51bab6840ff7549b296}} 
+\index{switch\_interface.h@{switch\_interface.h}!Switch\_GetReading@{Switch\_GetReading}}
+\index{Switch\_GetReading@{Switch\_GetReading}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{Switch\_GetReading()}{Switch\_GetReading()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} Switch\+\_\+\+Get\+Reading (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{switch\+Num }\end{DoxyParamCaption})}
+
+
+
+Return the state of the switch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em switch\+Num} & Switch number, this should be $<$= the amount of configured switches \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the state of the switch\+:~\newline
+ S\+W\+I\+T\+C\+H\+\_\+\+P\+R\+E\+S\+S\+ED,~\newline
+ S\+W\+I\+T\+C\+H\+\_\+\+U\+N\+P\+R\+E\+S\+S\+ED 
+\end{DoxyReturn}
+\mbox{\Hypertarget{switch__interface_8h_a1c787c932acfeaea4ff8f7ce68b315bb}\label{switch__interface_8h_a1c787c932acfeaea4ff8f7ce68b315bb}} 
+\index{switch\_interface.h@{switch\_interface.h}!Switch\_Init@{Switch\_Init}}
+\index{Switch\_Init@{Switch\_Init}!switch\_interface.h@{switch\_interface.h}}
+\doxysubsubsection{\texorpdfstring{Switch\_Init()}{Switch\_Init()}}
+{\footnotesize\ttfamily void Switch\+\_\+\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize all the switches\+: pin direction, default pull up/down. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

@@ -1,0 +1,1197 @@
+\hypertarget{_r_c_c_8h}{}\doxysection{include/\+R\+CC.h File Reference}
+\label{_r_c_c_8h}\index{include/RCC.h@{include/RCC.h}}
+{\ttfamily \#include \char`\"{}S\+T\+D\+\_\+\+T\+Y\+P\+E\+S.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a96cb498e966dbada20cc1292b843564e}{Clock\+Source\+Type}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a540fda81e44ce6db8304e61399545113}{R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+SI}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000001
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a9dbac3f2bc04f04ebafe1e66ae3fcf0d}{R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+I\+R\+DY}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5e720d0e12dcc05729d8827d9acdae25}{R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+SE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00010000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a86a34e00182c83409d89ff566cb02cc4}{R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+E\+R\+DY}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00020000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aa3288090671af5a959aae4d7f7696d55}{R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+E\+B\+YP}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00030000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acc05308869ad055e1e6f2c32d738aecd}{R\+C\+C\+\_\+\+C\+R\+\_\+\+C\+S\+S\+ON}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00040000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a6533168f410e93552ccf59a0b160e9c7}{R\+C\+C\+\_\+\+C\+R\+\_\+\+P\+LL}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x01000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_afa12d7ac6a7f0f91d066aeb2c6071888}{R\+C\+C\+\_\+\+C\+R\+\_\+\+P\+L\+L\+R\+DY}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x02010000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acbac8bae4f0808b3c3a5185aa10081fb}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+H\+SI}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_afb563f217242d969f4355d0818fde705}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+H\+SE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000001
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a87389cacb2eaf53730da13a2a33cd487}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+P\+LL}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a6764639cf221e1ebc0b5448dcaed590a}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+H\+SI}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ae09a0202f441c1a43e69c62331d50a08}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+H\+SE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a2c67e2279804a83ef24438267d9d4a6c}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+P\+LL}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a6c7ccedfebcece45df4b537b55cc2ecf}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aa214686c587e1215b6a002fdc99c9f2a}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+3}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00040000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ace8b88fab5cb439059da2659fcb1503c}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+4}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00080000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a47bb02e2d2af4cc98818110972eaad3b}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+5}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000\+C0000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acb5552a4c8e96504d6440df691aa6aaa}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+6}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00100000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5b8cf361ff10066fbeaa4da2a8539059}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+7}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00140000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acd671a8e1e08e42803bc2a6ef0d4c9ee}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00180000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_abcac53e206296afd8396f935a4933b90}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+9}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x001\+C0000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a6131cd9edd25673ad2238a41c82813d2}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+10}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00200000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acfea2a40e868915e05f93ac0d47fb9d6}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+11}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00240000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ac31e7349134428ba96b1f46bca9a7e90}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+12}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00280000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_abf40cdf8a918ed63d8f186f76910172f}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+13}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x002\+C0000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a8f3d47224986d3139160a06adba01cc3}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+14}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00300000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a8fb404d3edaa89f62e071e875e78bcfb}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+15}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00340000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a74502a551825cd3bfd6ee147830f515a}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+16}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00380000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5cda78e8a2c091022dfe5f2a1c74a4ff}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+E\+\_\+divided\+\_\+1}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00010000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a71103ba10f42ff27ff5f7d557d76d8ee}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+E\+\_\+divided\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00030000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a945b7d9e46feb89f5f531fde4b0fcd8e}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+I\+\_\+divided\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a03cc5e3c58413098f6ead3103d25ac93}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+1}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aba15cee51a8e4319c9da8ba21b3f5b97}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000400
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a047053f37e7a97196866fe131451c0b6}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+4}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000500
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a798025e2c1d4ddca33c499c97967e677}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000600
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ab103e5024d97b43778315545b5429864}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+16}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000700
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aa4428d9ae155e6794875b8e2defb88f1}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+1}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_af14a83c1ba187663b8f128546d90f64b}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00002000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a6240ce3c335aba0d0cd791e30372752d}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+4}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00002800
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acb127891195e763d61d1e6b8ca37cb15}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00003000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a51f41de04cbdae5c4038d5c2dcacfd5e}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+16}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00003800
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a42597dcfce3d1bc5879e9fe013ecfc3c}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+1}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a9029b462c38dc48924fb8c6e9d165b77}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000080
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a79c7bb69285e4135ef5431015b80728d}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+4}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000090
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a7bcde5f0cfc52c01b73d6326a6130920}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+A0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_af5d7c64c34fd7fae24f14c5a76c7278b}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+16}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+B0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a7ef8400e327c61b388a1d73d022cc36d}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+64}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+C0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ad0e574decd8c936443f49dcbbdcb6f56}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+128}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+D0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ac5dd89c21d78d8d7c4d2612e5119e867}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+256}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+E0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a573193baada9270da85181f38fe4b11f}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+512}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+F0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_af5dbb179b8931496be1d8fcc048fddec}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+2}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a47a1c87958b51311d1e59ee55400db7b}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+4}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5bd7bb3ca6775adebb1cbe941b9fe502}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+6}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a32a704615e45a2892dccb6df1ce7606f}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+8}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0xc000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ae5cca64c29290cda14213761e3f69830}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+N\+O\+C\+LK}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aecf3b078108fdaf7e66d15ae71ec4181}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+S\+Y\+S\+C\+LK}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a91f0ac507b8c4e5d443c107d934cfdb1}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+H\+SI}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x5000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a183179f1b1763f38ae88f2d8d90acd70}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+H\+SE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x6000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ac1b83ae21df9327e2a705b19ce981da6}{R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+P\+LL}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x7000000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a3f7405dadc55b83516627b62d47d2639}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+F\+I\+O\+E\+N\+\_\+\+Enable}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x1
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_acf412146567d73d43e1e4d5a5c39aa64}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+F\+I\+O\+E\+N\+\_\+\+Disable}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a68a7fa8ba239e6e1a513c20e16bdade7}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+A\+E\+N\+\_\+\+P\+O\+R\+TA}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a40e7ab9d6d94290b7bf535b546902fc2}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+B\+E\+N\+\_\+\+P\+O\+R\+TB}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_af3582e191b39d3d49b14a6edde3b90fa}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+C\+E\+N\+\_\+\+P\+O\+R\+TC}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x10
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a0c1b5b1acb5ccd5c6c242970767456b3}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+D\+E\+N\+\_\+\+P\+O\+R\+TD}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x20
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a4e9eb59d00e632e24c48c44343d5b8ea}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+E\+E\+N\+\_\+\+P\+O\+R\+TE}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x40
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a2964a6f35915994e33a4e911958f09b9}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+F\+E\+N\+\_\+\+P\+O\+R\+TF}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a009df0df6d087b202f3230f953720e05}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+G\+E\+N\+\_\+\+P\+O\+R\+TG}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a57b9f50cb96a2e4ceba37728b4a32a42}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C1\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x200
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a11a9732e1cef24f107e815caecdbb445}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C2\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x400
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a25852ad4ebc09edc724814de967816bc}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M1\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x800
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ae08a3510371b9234eb96369c91d3552f}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+S\+P\+I1\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x1000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a3669393b3538bc4543184d4bccd0b292}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M8\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x2000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a987ebd8255dc8f9c09127e1d608d1065}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M9\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_aa98e28e157787e24b93af95273ab3055}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M10\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ab1d2aeebc8ccf4e2ee18f4d924a35188}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M11\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x200000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a4666bb90842e8134b32e6a34a0f165f3}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T1\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C3\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}{R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C3\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ab840af4f735ec36419d61c7db3cfa00d}{R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T2\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x20000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a8033e0312aea02ae7eb2d57da13e8298}{R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T3\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x40000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ae6b0fe571aa29ed30389f87bdbf37b46}{R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+A\+R\+T4\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a24a9eea153892405f53007f521efee2e}{R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+A\+R\+T5\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100000
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ac8c3053f1ce37c9f643f0e31471927ea}{R\+C\+C\+\_\+\+A\+H\+B\+E\+N\+R\+\_\+\+D\+M\+A1\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x01
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a5c1919d23da5027f6d44fda6963fc984}{R\+C\+C\+\_\+\+A\+H\+B\+E\+N\+R\+\_\+\+D\+M\+A2\+EN}}~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x02
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_ad76d1750a6cdeebd506bfcd6752554d2}{ON}}~1
+\item 
+\#define \mbox{\hyperlink{_r_c_c_8h_a29e413f6725b2ba32d165ffaa35b01e5}{O\+FF}}~0
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} \mbox{\hyperlink{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}{Clock\+Source\+\_\+\+Return\+Type}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a07cbb157e9c5e78c7b216c4d80bcd696}{Select\+\_\+\+System\+Clock}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} System\+Clock)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a9be34ed8a4b07e199c19c25663149bdf}{R\+C\+C\+\_\+\+Set\+Clock}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Clock, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} State)
+\item 
+\mbox{\hyperlink{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}{Clock\+Source\+\_\+\+Return\+Type}} \mbox{\hyperlink{_r_c_c_8h_a2e0642ec6b8446ba0c1c4485cd8ee83f}{R\+C\+C\+\_\+\+Check\+System\+Clock}} (void)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_ac3e8e83ea6ec0186d615feff2be1de8b}{R\+C\+C\+\_\+\+P\+L\+L\+Configuration}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} R\+C\+C\+\_\+\+P\+L\+L\+Source, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} R\+C\+C\+\_\+\+P\+L\+L\+M\+UL)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a7718c3fb0b124d43c3c4383156033cd9}{R\+C\+C\+\_\+\+P\+P\+R\+E2\+\_\+\+Set\+Prescaler}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Prescaler)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_afd35eec222f96742dbdecfcf3073ffd6}{R\+C\+C\+\_\+\+P\+P\+R\+E1\+\_\+\+Set\+Prescaler}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Prescaler)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a7a34ff38fc8d15632a27b5298bd5b093}{R\+C\+C\+\_\+\+H\+P\+R\+E\+\_\+\+Set\+Prescaler}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Prescaler)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_aaf7e483639696ea5ba296af287123313}{R\+C\+C\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+\+Set\+Prescaler}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Prescaler)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a6b8e6d97db88a314e5d8c2035922414b}{R\+C\+C\+\_\+\+Select\+M\+CO}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Clock)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_aefac54db057681641e68176f01342dff}{R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+P\+B2}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Peripheral)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_a7bf67815180462bcc5312eea7416e85d}{R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+P\+B1}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Peripheral)
+\item 
+void \mbox{\hyperlink{_r_c_c_8h_ad902c1b14630876fc12cbfe1ffc2b081}{R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+HB}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} Peripheral)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_r_c_c_8h_a96cb498e966dbada20cc1292b843564e}\label{_r_c_c_8h_a96cb498e966dbada20cc1292b843564e}} 
+\index{RCC.h@{RCC.h}!ClockSourceType@{ClockSourceType}}
+\index{ClockSourceType@{ClockSourceType}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{ClockSourceType}{ClockSourceType}}
+{\footnotesize\ttfamily \#define Clock\+Source\+Type~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})}
+
+
+
+Definition at line 7 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a29e413f6725b2ba32d165ffaa35b01e5}\label{_r_c_c_8h_a29e413f6725b2ba32d165ffaa35b01e5}} 
+\index{RCC.h@{RCC.h}!OFF@{OFF}}
+\index{OFF@{OFF}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{OFF}{OFF}}
+{\footnotesize\ttfamily \#define O\+FF~0}
+
+
+
+Definition at line 139 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ad76d1750a6cdeebd506bfcd6752554d2}\label{_r_c_c_8h_ad76d1750a6cdeebd506bfcd6752554d2}} 
+\index{RCC.h@{RCC.h}!ON@{ON}}
+\index{ON@{ON}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{ON}{ON}}
+{\footnotesize\ttfamily \#define ON~1}
+
+
+
+Definition at line 138 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ac8c3053f1ce37c9f643f0e31471927ea}\label{_r_c_c_8h_ac8c3053f1ce37c9f643f0e31471927ea}} 
+\index{RCC.h@{RCC.h}!RCC\_AHBENR\_DMA1EN@{RCC\_AHBENR\_DMA1EN}}
+\index{RCC\_AHBENR\_DMA1EN@{RCC\_AHBENR\_DMA1EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_AHBENR\_DMA1EN}{RCC\_AHBENR\_DMA1EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+H\+B\+E\+N\+R\+\_\+\+D\+M\+A1\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x01}
+
+
+
+Definition at line 134 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5c1919d23da5027f6d44fda6963fc984}\label{_r_c_c_8h_a5c1919d23da5027f6d44fda6963fc984}} 
+\index{RCC.h@{RCC.h}!RCC\_AHBENR\_DMA2EN@{RCC\_AHBENR\_DMA2EN}}
+\index{RCC\_AHBENR\_DMA2EN@{RCC\_AHBENR\_DMA2EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_AHBENR\_DMA2EN}{RCC\_AHBENR\_DMA2EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+H\+B\+E\+N\+R\+\_\+\+D\+M\+A2\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x02}
+
+
+
+Definition at line 135 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ae6b0fe571aa29ed30389f87bdbf37b46}\label{_r_c_c_8h_ae6b0fe571aa29ed30389f87bdbf37b46}} 
+\index{RCC.h@{RCC.h}!RCC\_APB1ENR\_UART4EN@{RCC\_APB1ENR\_UART4EN}}
+\index{RCC\_APB1ENR\_UART4EN@{RCC\_APB1ENR\_UART4EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB1ENR\_UART4EN}{RCC\_APB1ENR\_UART4EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+A\+R\+T4\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80000}
+
+
+
+Definition at line 129 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a24a9eea153892405f53007f521efee2e}\label{_r_c_c_8h_a24a9eea153892405f53007f521efee2e}} 
+\index{RCC.h@{RCC.h}!RCC\_APB1ENR\_UART5EN@{RCC\_APB1ENR\_UART5EN}}
+\index{RCC\_APB1ENR\_UART5EN@{RCC\_APB1ENR\_UART5EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB1ENR\_UART5EN}{RCC\_APB1ENR\_UART5EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+A\+R\+T5\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100000}
+
+
+
+Definition at line 130 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ab840af4f735ec36419d61c7db3cfa00d}\label{_r_c_c_8h_ab840af4f735ec36419d61c7db3cfa00d}} 
+\index{RCC.h@{RCC.h}!RCC\_APB1ENR\_USART2EN@{RCC\_APB1ENR\_USART2EN}}
+\index{RCC\_APB1ENR\_USART2EN@{RCC\_APB1ENR\_USART2EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB1ENR\_USART2EN}{RCC\_APB1ENR\_USART2EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T2\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x20000}
+
+
+
+Definition at line 127 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a8033e0312aea02ae7eb2d57da13e8298}\label{_r_c_c_8h_a8033e0312aea02ae7eb2d57da13e8298}} 
+\index{RCC.h@{RCC.h}!RCC\_APB1ENR\_USART3EN@{RCC\_APB1ENR\_USART3EN}}
+\index{RCC\_APB1ENR\_USART3EN@{RCC\_APB1ENR\_USART3EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB1ENR\_USART3EN}{RCC\_APB1ENR\_USART3EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B1\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T3\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x40000}
+
+
+
+Definition at line 128 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a57b9f50cb96a2e4ceba37728b4a32a42}\label{_r_c_c_8h_a57b9f50cb96a2e4ceba37728b4a32a42}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_ADC1EN@{RCC\_APB2ENR\_ADC1EN}}
+\index{RCC\_APB2ENR\_ADC1EN@{RCC\_APB2ENR\_ADC1EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_ADC1EN}{RCC\_APB2ENR\_ADC1EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C1\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x200}
+
+
+
+Definition at line 114 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a11a9732e1cef24f107e815caecdbb445}\label{_r_c_c_8h_a11a9732e1cef24f107e815caecdbb445}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_ADC2EN@{RCC\_APB2ENR\_ADC2EN}}
+\index{RCC\_APB2ENR\_ADC2EN@{RCC\_APB2ENR\_ADC2EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_ADC2EN}{RCC\_APB2ENR\_ADC2EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C2\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x400}
+
+
+
+Definition at line 115 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}\label{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_ADC3EN@{RCC\_APB2ENR\_ADC3EN}}
+\index{RCC\_APB2ENR\_ADC3EN@{RCC\_APB2ENR\_ADC3EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_ADC3EN}{RCC\_APB2ENR\_ADC3EN}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C3\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000}
+
+
+
+Definition at line 124 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}\label{_r_c_c_8h_a5df23f931ddad97274ce7e2050b90a5a}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_ADC3EN@{RCC\_APB2ENR\_ADC3EN}}
+\index{RCC\_APB2ENR\_ADC3EN@{RCC\_APB2ENR\_ADC3EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_ADC3EN}{RCC\_APB2ENR\_ADC3EN}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+D\+C3\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000}
+
+
+
+Definition at line 124 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acf412146567d73d43e1e4d5a5c39aa64}\label{_r_c_c_8h_acf412146567d73d43e1e4d5a5c39aa64}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_AFIOEN\_Disable@{RCC\_APB2ENR\_AFIOEN\_Disable}}
+\index{RCC\_APB2ENR\_AFIOEN\_Disable@{RCC\_APB2ENR\_AFIOEN\_Disable}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_AFIOEN\_Disable}{RCC\_APB2ENR\_AFIOEN\_Disable}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+F\+I\+O\+E\+N\+\_\+\+Disable~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0}
+
+
+
+Definition at line 105 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a3f7405dadc55b83516627b62d47d2639}\label{_r_c_c_8h_a3f7405dadc55b83516627b62d47d2639}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_AFIOEN\_Enable@{RCC\_APB2ENR\_AFIOEN\_Enable}}
+\index{RCC\_APB2ENR\_AFIOEN\_Enable@{RCC\_APB2ENR\_AFIOEN\_Enable}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_AFIOEN\_Enable}{RCC\_APB2ENR\_AFIOEN\_Enable}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+A\+F\+I\+O\+E\+N\+\_\+\+Enable~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x1}
+
+
+
+Definition at line 104 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a68a7fa8ba239e6e1a513c20e16bdade7}\label{_r_c_c_8h_a68a7fa8ba239e6e1a513c20e16bdade7}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPAEN\_PORTA@{RCC\_APB2ENR\_IOPAEN\_PORTA}}
+\index{RCC\_APB2ENR\_IOPAEN\_PORTA@{RCC\_APB2ENR\_IOPAEN\_PORTA}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPAEN\_PORTA}{RCC\_APB2ENR\_IOPAEN\_PORTA}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+A\+E\+N\+\_\+\+P\+O\+R\+TA~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4}
+
+
+
+Definition at line 107 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a40e7ab9d6d94290b7bf535b546902fc2}\label{_r_c_c_8h_a40e7ab9d6d94290b7bf535b546902fc2}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPBEN\_PORTB@{RCC\_APB2ENR\_IOPBEN\_PORTB}}
+\index{RCC\_APB2ENR\_IOPBEN\_PORTB@{RCC\_APB2ENR\_IOPBEN\_PORTB}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPBEN\_PORTB}{RCC\_APB2ENR\_IOPBEN\_PORTB}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+B\+E\+N\+\_\+\+P\+O\+R\+TB~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8}
+
+
+
+Definition at line 108 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_af3582e191b39d3d49b14a6edde3b90fa}\label{_r_c_c_8h_af3582e191b39d3d49b14a6edde3b90fa}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPCEN\_PORTC@{RCC\_APB2ENR\_IOPCEN\_PORTC}}
+\index{RCC\_APB2ENR\_IOPCEN\_PORTC@{RCC\_APB2ENR\_IOPCEN\_PORTC}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPCEN\_PORTC}{RCC\_APB2ENR\_IOPCEN\_PORTC}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+C\+E\+N\+\_\+\+P\+O\+R\+TC~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x10}
+
+
+
+Definition at line 109 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a0c1b5b1acb5ccd5c6c242970767456b3}\label{_r_c_c_8h_a0c1b5b1acb5ccd5c6c242970767456b3}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPDEN\_PORTD@{RCC\_APB2ENR\_IOPDEN\_PORTD}}
+\index{RCC\_APB2ENR\_IOPDEN\_PORTD@{RCC\_APB2ENR\_IOPDEN\_PORTD}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPDEN\_PORTD}{RCC\_APB2ENR\_IOPDEN\_PORTD}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+D\+E\+N\+\_\+\+P\+O\+R\+TD~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x20}
+
+
+
+Definition at line 110 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a4e9eb59d00e632e24c48c44343d5b8ea}\label{_r_c_c_8h_a4e9eb59d00e632e24c48c44343d5b8ea}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPEEN\_PORTE@{RCC\_APB2ENR\_IOPEEN\_PORTE}}
+\index{RCC\_APB2ENR\_IOPEEN\_PORTE@{RCC\_APB2ENR\_IOPEEN\_PORTE}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPEEN\_PORTE}{RCC\_APB2ENR\_IOPEEN\_PORTE}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+E\+E\+N\+\_\+\+P\+O\+R\+TE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x40}
+
+
+
+Definition at line 111 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a2964a6f35915994e33a4e911958f09b9}\label{_r_c_c_8h_a2964a6f35915994e33a4e911958f09b9}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPFEN\_PORTF@{RCC\_APB2ENR\_IOPFEN\_PORTF}}
+\index{RCC\_APB2ENR\_IOPFEN\_PORTF@{RCC\_APB2ENR\_IOPFEN\_PORTF}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPFEN\_PORTF}{RCC\_APB2ENR\_IOPFEN\_PORTF}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+F\+E\+N\+\_\+\+P\+O\+R\+TF~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80}
+
+
+
+Definition at line 112 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a009df0df6d087b202f3230f953720e05}\label{_r_c_c_8h_a009df0df6d087b202f3230f953720e05}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_IOPGEN\_PORTG@{RCC\_APB2ENR\_IOPGEN\_PORTG}}
+\index{RCC\_APB2ENR\_IOPGEN\_PORTG@{RCC\_APB2ENR\_IOPGEN\_PORTG}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_IOPGEN\_PORTG}{RCC\_APB2ENR\_IOPGEN\_PORTG}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+I\+O\+P\+G\+E\+N\+\_\+\+P\+O\+R\+TG~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100}
+
+
+
+Definition at line 113 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ae08a3510371b9234eb96369c91d3552f}\label{_r_c_c_8h_ae08a3510371b9234eb96369c91d3552f}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_SPI1EN@{RCC\_APB2ENR\_SPI1EN}}
+\index{RCC\_APB2ENR\_SPI1EN@{RCC\_APB2ENR\_SPI1EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_SPI1EN}{RCC\_APB2ENR\_SPI1EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+S\+P\+I1\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x1000}
+
+
+
+Definition at line 117 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aa98e28e157787e24b93af95273ab3055}\label{_r_c_c_8h_aa98e28e157787e24b93af95273ab3055}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_TIM10EN@{RCC\_APB2ENR\_TIM10EN}}
+\index{RCC\_APB2ENR\_TIM10EN@{RCC\_APB2ENR\_TIM10EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_TIM10EN}{RCC\_APB2ENR\_TIM10EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M10\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x100000}
+
+
+
+Definition at line 120 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ab1d2aeebc8ccf4e2ee18f4d924a35188}\label{_r_c_c_8h_ab1d2aeebc8ccf4e2ee18f4d924a35188}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_TIM11EN@{RCC\_APB2ENR\_TIM11EN}}
+\index{RCC\_APB2ENR\_TIM11EN@{RCC\_APB2ENR\_TIM11EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_TIM11EN}{RCC\_APB2ENR\_TIM11EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M11\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x200000}
+
+
+
+Definition at line 121 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a25852ad4ebc09edc724814de967816bc}\label{_r_c_c_8h_a25852ad4ebc09edc724814de967816bc}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_TIM1EN@{RCC\_APB2ENR\_TIM1EN}}
+\index{RCC\_APB2ENR\_TIM1EN@{RCC\_APB2ENR\_TIM1EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_TIM1EN}{RCC\_APB2ENR\_TIM1EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M1\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x800}
+
+
+
+Definition at line 116 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a3669393b3538bc4543184d4bccd0b292}\label{_r_c_c_8h_a3669393b3538bc4543184d4bccd0b292}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_TIM8EN@{RCC\_APB2ENR\_TIM8EN}}
+\index{RCC\_APB2ENR\_TIM8EN@{RCC\_APB2ENR\_TIM8EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_TIM8EN}{RCC\_APB2ENR\_TIM8EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M8\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x2000}
+
+
+
+Definition at line 118 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a987ebd8255dc8f9c09127e1d608d1065}\label{_r_c_c_8h_a987ebd8255dc8f9c09127e1d608d1065}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_TIM9EN@{RCC\_APB2ENR\_TIM9EN}}
+\index{RCC\_APB2ENR\_TIM9EN@{RCC\_APB2ENR\_TIM9EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_TIM9EN}{RCC\_APB2ENR\_TIM9EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+T\+I\+M9\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x80000}
+
+
+
+Definition at line 119 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a4666bb90842e8134b32e6a34a0f165f3}\label{_r_c_c_8h_a4666bb90842e8134b32e6a34a0f165f3}} 
+\index{RCC.h@{RCC.h}!RCC\_APB2ENR\_USART1EN@{RCC\_APB2ENR\_USART1EN}}
+\index{RCC\_APB2ENR\_USART1EN@{RCC\_APB2ENR\_USART1EN}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_APB2ENR\_USART1EN}{RCC\_APB2ENR\_USART1EN}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+A\+P\+B2\+E\+N\+R\+\_\+\+U\+S\+A\+R\+T1\+EN~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000}
+
+
+
+Definition at line 122 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_af5dbb179b8931496be1d8fcc048fddec}\label{_r_c_c_8h_af5dbb179b8931496be1d8fcc048fddec}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_ADCPRE\_div\_2@{RCC\_CFGR\_ADCPRE\_div\_2}}
+\index{RCC\_CFGR\_ADCPRE\_div\_2@{RCC\_CFGR\_ADCPRE\_div\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_ADCPRE\_div\_2}{RCC\_CFGR\_ADCPRE\_div\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0}
+
+
+
+Definition at line 89 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a47a1c87958b51311d1e59ee55400db7b}\label{_r_c_c_8h_a47a1c87958b51311d1e59ee55400db7b}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_ADCPRE\_div\_4@{RCC\_CFGR\_ADCPRE\_div\_4}}
+\index{RCC\_CFGR\_ADCPRE\_div\_4@{RCC\_CFGR\_ADCPRE\_div\_4}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_ADCPRE\_div\_4}{RCC\_CFGR\_ADCPRE\_div\_4}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+4~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000}
+
+
+
+Definition at line 90 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5bd7bb3ca6775adebb1cbe941b9fe502}\label{_r_c_c_8h_a5bd7bb3ca6775adebb1cbe941b9fe502}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_ADCPRE\_div\_6@{RCC\_CFGR\_ADCPRE\_div\_6}}
+\index{RCC\_CFGR\_ADCPRE\_div\_6@{RCC\_CFGR\_ADCPRE\_div\_6}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_ADCPRE\_div\_6}{RCC\_CFGR\_ADCPRE\_div\_6}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+6~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8000}
+
+
+
+Definition at line 91 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a32a704615e45a2892dccb6df1ce7606f}\label{_r_c_c_8h_a32a704615e45a2892dccb6df1ce7606f}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_ADCPRE\_div\_8@{RCC\_CFGR\_ADCPRE\_div\_8}}
+\index{RCC\_CFGR\_ADCPRE\_div\_8@{RCC\_CFGR\_ADCPRE\_div\_8}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_ADCPRE\_div\_8}{RCC\_CFGR\_ADCPRE\_div\_8}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+div\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0xc000}
+
+
+
+Definition at line 92 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a42597dcfce3d1bc5879e9fe013ecfc3c}\label{_r_c_c_8h_a42597dcfce3d1bc5879e9fe013ecfc3c}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_1@{RCC\_CFGR\_HPRE\_div\_1}}
+\index{RCC\_CFGR\_HPRE\_div\_1@{RCC\_CFGR\_HPRE\_div\_1}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_1}{RCC\_CFGR\_HPRE\_div\_1}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+1~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 78 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ad0e574decd8c936443f49dcbbdcb6f56}\label{_r_c_c_8h_ad0e574decd8c936443f49dcbbdcb6f56}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_128@{RCC\_CFGR\_HPRE\_div\_128}}
+\index{RCC\_CFGR\_HPRE\_div\_128@{RCC\_CFGR\_HPRE\_div\_128}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_128}{RCC\_CFGR\_HPRE\_div\_128}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+128~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+D0}
+
+
+
+Definition at line 84 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_af5d7c64c34fd7fae24f14c5a76c7278b}\label{_r_c_c_8h_af5d7c64c34fd7fae24f14c5a76c7278b}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_16@{RCC\_CFGR\_HPRE\_div\_16}}
+\index{RCC\_CFGR\_HPRE\_div\_16@{RCC\_CFGR\_HPRE\_div\_16}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_16}{RCC\_CFGR\_HPRE\_div\_16}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+16~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+B0}
+
+
+
+Definition at line 82 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a9029b462c38dc48924fb8c6e9d165b77}\label{_r_c_c_8h_a9029b462c38dc48924fb8c6e9d165b77}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_2@{RCC\_CFGR\_HPRE\_div\_2}}
+\index{RCC\_CFGR\_HPRE\_div\_2@{RCC\_CFGR\_HPRE\_div\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_2}{RCC\_CFGR\_HPRE\_div\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000080}
+
+
+
+Definition at line 79 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ac5dd89c21d78d8d7c4d2612e5119e867}\label{_r_c_c_8h_ac5dd89c21d78d8d7c4d2612e5119e867}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_256@{RCC\_CFGR\_HPRE\_div\_256}}
+\index{RCC\_CFGR\_HPRE\_div\_256@{RCC\_CFGR\_HPRE\_div\_256}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_256}{RCC\_CFGR\_HPRE\_div\_256}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+256~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+E0}
+
+
+
+Definition at line 85 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a79c7bb69285e4135ef5431015b80728d}\label{_r_c_c_8h_a79c7bb69285e4135ef5431015b80728d}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_4@{RCC\_CFGR\_HPRE\_div\_4}}
+\index{RCC\_CFGR\_HPRE\_div\_4@{RCC\_CFGR\_HPRE\_div\_4}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_4}{RCC\_CFGR\_HPRE\_div\_4}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+4~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000090}
+
+
+
+Definition at line 80 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a573193baada9270da85181f38fe4b11f}\label{_r_c_c_8h_a573193baada9270da85181f38fe4b11f}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_512@{RCC\_CFGR\_HPRE\_div\_512}}
+\index{RCC\_CFGR\_HPRE\_div\_512@{RCC\_CFGR\_HPRE\_div\_512}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_512}{RCC\_CFGR\_HPRE\_div\_512}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+512~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+F0}
+
+
+
+Definition at line 86 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a7ef8400e327c61b388a1d73d022cc36d}\label{_r_c_c_8h_a7ef8400e327c61b388a1d73d022cc36d}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_64@{RCC\_CFGR\_HPRE\_div\_64}}
+\index{RCC\_CFGR\_HPRE\_div\_64@{RCC\_CFGR\_HPRE\_div\_64}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_64}{RCC\_CFGR\_HPRE\_div\_64}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+64~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+C0}
+
+
+
+Definition at line 83 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a7bcde5f0cfc52c01b73d6326a6130920}\label{_r_c_c_8h_a7bcde5f0cfc52c01b73d6326a6130920}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_HPRE\_div\_8@{RCC\_CFGR\_HPRE\_div\_8}}
+\index{RCC\_CFGR\_HPRE\_div\_8@{RCC\_CFGR\_HPRE\_div\_8}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_HPRE\_div\_8}{RCC\_CFGR\_HPRE\_div\_8}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+H\+P\+R\+E\+\_\+div\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000000\+A0}
+
+
+
+Definition at line 81 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a183179f1b1763f38ae88f2d8d90acd70}\label{_r_c_c_8h_a183179f1b1763f38ae88f2d8d90acd70}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_MCO\_HSE@{RCC\_CFGR\_MCO\_HSE}}
+\index{RCC\_CFGR\_MCO\_HSE@{RCC\_CFGR\_MCO\_HSE}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_MCO\_HSE}{RCC\_CFGR\_MCO\_HSE}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+H\+SE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x6000000}
+
+
+
+Definition at line 99 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a91f0ac507b8c4e5d443c107d934cfdb1}\label{_r_c_c_8h_a91f0ac507b8c4e5d443c107d934cfdb1}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_MCO\_HSI@{RCC\_CFGR\_MCO\_HSI}}
+\index{RCC\_CFGR\_MCO\_HSI@{RCC\_CFGR\_MCO\_HSI}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_MCO\_HSI}{RCC\_CFGR\_MCO\_HSI}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+H\+SI~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x5000000}
+
+
+
+Definition at line 98 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ae5cca64c29290cda14213761e3f69830}\label{_r_c_c_8h_ae5cca64c29290cda14213761e3f69830}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_MCO\_NOCLK@{RCC\_CFGR\_MCO\_NOCLK}}
+\index{RCC\_CFGR\_MCO\_NOCLK@{RCC\_CFGR\_MCO\_NOCLK}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_MCO\_NOCLK}{RCC\_CFGR\_MCO\_NOCLK}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+N\+O\+C\+LK~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 96 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ac1b83ae21df9327e2a705b19ce981da6}\label{_r_c_c_8h_ac1b83ae21df9327e2a705b19ce981da6}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_MCO\_PLL@{RCC\_CFGR\_MCO\_PLL}}
+\index{RCC\_CFGR\_MCO\_PLL@{RCC\_CFGR\_MCO\_PLL}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_MCO\_PLL}{RCC\_CFGR\_MCO\_PLL}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+P\+LL~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x7000000}
+
+
+
+Definition at line 100 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aecf3b078108fdaf7e66d15ae71ec4181}\label{_r_c_c_8h_aecf3b078108fdaf7e66d15ae71ec4181}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_MCO\_SYSCLK@{RCC\_CFGR\_MCO\_SYSCLK}}
+\index{RCC\_CFGR\_MCO\_SYSCLK@{RCC\_CFGR\_MCO\_SYSCLK}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_MCO\_SYSCLK}{RCC\_CFGR\_MCO\_SYSCLK}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+M\+C\+O\+\_\+\+S\+Y\+S\+C\+LK~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4000000}
+
+
+
+Definition at line 97 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a6131cd9edd25673ad2238a41c82813d2}\label{_r_c_c_8h_a6131cd9edd25673ad2238a41c82813d2}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_10@{RCC\_CFGR\_PLLMUL\_10}}
+\index{RCC\_CFGR\_PLLMUL\_10@{RCC\_CFGR\_PLLMUL\_10}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_10}{RCC\_CFGR\_PLLMUL\_10}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+10~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00200000}
+
+
+
+Definition at line 49 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acfea2a40e868915e05f93ac0d47fb9d6}\label{_r_c_c_8h_acfea2a40e868915e05f93ac0d47fb9d6}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_11@{RCC\_CFGR\_PLLMUL\_11}}
+\index{RCC\_CFGR\_PLLMUL\_11@{RCC\_CFGR\_PLLMUL\_11}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_11}{RCC\_CFGR\_PLLMUL\_11}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+11~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00240000}
+
+
+
+Definition at line 50 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ac31e7349134428ba96b1f46bca9a7e90}\label{_r_c_c_8h_ac31e7349134428ba96b1f46bca9a7e90}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_12@{RCC\_CFGR\_PLLMUL\_12}}
+\index{RCC\_CFGR\_PLLMUL\_12@{RCC\_CFGR\_PLLMUL\_12}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_12}{RCC\_CFGR\_PLLMUL\_12}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+12~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00280000}
+
+
+
+Definition at line 51 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_abf40cdf8a918ed63d8f186f76910172f}\label{_r_c_c_8h_abf40cdf8a918ed63d8f186f76910172f}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_13@{RCC\_CFGR\_PLLMUL\_13}}
+\index{RCC\_CFGR\_PLLMUL\_13@{RCC\_CFGR\_PLLMUL\_13}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_13}{RCC\_CFGR\_PLLMUL\_13}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+13~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x002\+C0000}
+
+
+
+Definition at line 52 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a8f3d47224986d3139160a06adba01cc3}\label{_r_c_c_8h_a8f3d47224986d3139160a06adba01cc3}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_14@{RCC\_CFGR\_PLLMUL\_14}}
+\index{RCC\_CFGR\_PLLMUL\_14@{RCC\_CFGR\_PLLMUL\_14}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_14}{RCC\_CFGR\_PLLMUL\_14}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+14~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00300000}
+
+
+
+Definition at line 53 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a8fb404d3edaa89f62e071e875e78bcfb}\label{_r_c_c_8h_a8fb404d3edaa89f62e071e875e78bcfb}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_15@{RCC\_CFGR\_PLLMUL\_15}}
+\index{RCC\_CFGR\_PLLMUL\_15@{RCC\_CFGR\_PLLMUL\_15}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_15}{RCC\_CFGR\_PLLMUL\_15}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+15~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00340000}
+
+
+
+Definition at line 54 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a74502a551825cd3bfd6ee147830f515a}\label{_r_c_c_8h_a74502a551825cd3bfd6ee147830f515a}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_16@{RCC\_CFGR\_PLLMUL\_16}}
+\index{RCC\_CFGR\_PLLMUL\_16@{RCC\_CFGR\_PLLMUL\_16}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_16}{RCC\_CFGR\_PLLMUL\_16}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+16~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00380000}
+
+
+
+Definition at line 55 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a6c7ccedfebcece45df4b537b55cc2ecf}\label{_r_c_c_8h_a6c7ccedfebcece45df4b537b55cc2ecf}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_2@{RCC\_CFGR\_PLLMUL\_2}}
+\index{RCC\_CFGR\_PLLMUL\_2@{RCC\_CFGR\_PLLMUL\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_2}{RCC\_CFGR\_PLLMUL\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 41 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aa214686c587e1215b6a002fdc99c9f2a}\label{_r_c_c_8h_aa214686c587e1215b6a002fdc99c9f2a}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_3@{RCC\_CFGR\_PLLMUL\_3}}
+\index{RCC\_CFGR\_PLLMUL\_3@{RCC\_CFGR\_PLLMUL\_3}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_3}{RCC\_CFGR\_PLLMUL\_3}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+3~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00040000}
+
+
+
+Definition at line 42 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ace8b88fab5cb439059da2659fcb1503c}\label{_r_c_c_8h_ace8b88fab5cb439059da2659fcb1503c}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_4@{RCC\_CFGR\_PLLMUL\_4}}
+\index{RCC\_CFGR\_PLLMUL\_4@{RCC\_CFGR\_PLLMUL\_4}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_4}{RCC\_CFGR\_PLLMUL\_4}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+4~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00080000}
+
+
+
+Definition at line 43 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a47bb02e2d2af4cc98818110972eaad3b}\label{_r_c_c_8h_a47bb02e2d2af4cc98818110972eaad3b}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_5@{RCC\_CFGR\_PLLMUL\_5}}
+\index{RCC\_CFGR\_PLLMUL\_5@{RCC\_CFGR\_PLLMUL\_5}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_5}{RCC\_CFGR\_PLLMUL\_5}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+5~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x000\+C0000}
+
+
+
+Definition at line 44 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acb5552a4c8e96504d6440df691aa6aaa}\label{_r_c_c_8h_acb5552a4c8e96504d6440df691aa6aaa}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_6@{RCC\_CFGR\_PLLMUL\_6}}
+\index{RCC\_CFGR\_PLLMUL\_6@{RCC\_CFGR\_PLLMUL\_6}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_6}{RCC\_CFGR\_PLLMUL\_6}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+6~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00100000}
+
+
+
+Definition at line 45 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5b8cf361ff10066fbeaa4da2a8539059}\label{_r_c_c_8h_a5b8cf361ff10066fbeaa4da2a8539059}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_7@{RCC\_CFGR\_PLLMUL\_7}}
+\index{RCC\_CFGR\_PLLMUL\_7@{RCC\_CFGR\_PLLMUL\_7}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_7}{RCC\_CFGR\_PLLMUL\_7}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+7~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00140000}
+
+
+
+Definition at line 46 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acd671a8e1e08e42803bc2a6ef0d4c9ee}\label{_r_c_c_8h_acd671a8e1e08e42803bc2a6ef0d4c9ee}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_8@{RCC\_CFGR\_PLLMUL\_8}}
+\index{RCC\_CFGR\_PLLMUL\_8@{RCC\_CFGR\_PLLMUL\_8}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_8}{RCC\_CFGR\_PLLMUL\_8}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00180000}
+
+
+
+Definition at line 47 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_abcac53e206296afd8396f935a4933b90}\label{_r_c_c_8h_abcac53e206296afd8396f935a4933b90}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLMUL\_9@{RCC\_CFGR\_PLLMUL\_9}}
+\index{RCC\_CFGR\_PLLMUL\_9@{RCC\_CFGR\_PLLMUL\_9}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLMUL\_9}{RCC\_CFGR\_PLLMUL\_9}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+M\+U\+L\+\_\+9~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x001\+C0000}
+
+
+
+Definition at line 48 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5cda78e8a2c091022dfe5f2a1c74a4ff}\label{_r_c_c_8h_a5cda78e8a2c091022dfe5f2a1c74a4ff}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1@{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}}
+\index{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1@{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+E\+\_\+divided\+\_\+1~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00010000}
+
+
+
+Definition at line 58 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a71103ba10f42ff27ff5f7d557d76d8ee}\label{_r_c_c_8h_a71103ba10f42ff27ff5f7d557d76d8ee}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2@{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}}
+\index{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2@{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}{RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+E\+\_\+divided\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00030000}
+
+
+
+Definition at line 59 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a945b7d9e46feb89f5f531fde4b0fcd8e}\label{_r_c_c_8h_a945b7d9e46feb89f5f531fde4b0fcd8e}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2@{RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}}
+\index{RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2@{RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}{RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+L\+L\+X\+T\+P\+R\+E\+S\+R\+C\+\_\+\+H\+S\+I\+\_\+divided\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 60 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a03cc5e3c58413098f6ead3103d25ac93}\label{_r_c_c_8h_a03cc5e3c58413098f6ead3103d25ac93}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE1\_div\_1@{RCC\_CFGR\_PPRE1\_div\_1}}
+\index{RCC\_CFGR\_PPRE1\_div\_1@{RCC\_CFGR\_PPRE1\_div\_1}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE1\_div\_1}{RCC\_CFGR\_PPRE1\_div\_1}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+1~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 63 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ab103e5024d97b43778315545b5429864}\label{_r_c_c_8h_ab103e5024d97b43778315545b5429864}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE1\_div\_16@{RCC\_CFGR\_PPRE1\_div\_16}}
+\index{RCC\_CFGR\_PPRE1\_div\_16@{RCC\_CFGR\_PPRE1\_div\_16}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE1\_div\_16}{RCC\_CFGR\_PPRE1\_div\_16}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+16~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000700}
+
+
+
+Definition at line 67 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aba15cee51a8e4319c9da8ba21b3f5b97}\label{_r_c_c_8h_aba15cee51a8e4319c9da8ba21b3f5b97}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE1\_div\_2@{RCC\_CFGR\_PPRE1\_div\_2}}
+\index{RCC\_CFGR\_PPRE1\_div\_2@{RCC\_CFGR\_PPRE1\_div\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE1\_div\_2}{RCC\_CFGR\_PPRE1\_div\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000400}
+
+
+
+Definition at line 64 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a047053f37e7a97196866fe131451c0b6}\label{_r_c_c_8h_a047053f37e7a97196866fe131451c0b6}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE1\_div\_4@{RCC\_CFGR\_PPRE1\_div\_4}}
+\index{RCC\_CFGR\_PPRE1\_div\_4@{RCC\_CFGR\_PPRE1\_div\_4}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE1\_div\_4}{RCC\_CFGR\_PPRE1\_div\_4}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+4~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000500}
+
+
+
+Definition at line 65 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a798025e2c1d4ddca33c499c97967e677}\label{_r_c_c_8h_a798025e2c1d4ddca33c499c97967e677}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE1\_div\_8@{RCC\_CFGR\_PPRE1\_div\_8}}
+\index{RCC\_CFGR\_PPRE1\_div\_8@{RCC\_CFGR\_PPRE1\_div\_8}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE1\_div\_8}{RCC\_CFGR\_PPRE1\_div\_8}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E1\+\_\+div\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000600}
+
+
+
+Definition at line 66 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aa4428d9ae155e6794875b8e2defb88f1}\label{_r_c_c_8h_aa4428d9ae155e6794875b8e2defb88f1}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE2\_div\_1@{RCC\_CFGR\_PPRE2\_div\_1}}
+\index{RCC\_CFGR\_PPRE2\_div\_1@{RCC\_CFGR\_PPRE2\_div\_1}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE2\_div\_1}{RCC\_CFGR\_PPRE2\_div\_1}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+1~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 70 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a51f41de04cbdae5c4038d5c2dcacfd5e}\label{_r_c_c_8h_a51f41de04cbdae5c4038d5c2dcacfd5e}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE2\_div\_16@{RCC\_CFGR\_PPRE2\_div\_16}}
+\index{RCC\_CFGR\_PPRE2\_div\_16@{RCC\_CFGR\_PPRE2\_div\_16}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE2\_div\_16}{RCC\_CFGR\_PPRE2\_div\_16}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+16~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00003800}
+
+
+
+Definition at line 74 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_af14a83c1ba187663b8f128546d90f64b}\label{_r_c_c_8h_af14a83c1ba187663b8f128546d90f64b}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE2\_div\_2@{RCC\_CFGR\_PPRE2\_div\_2}}
+\index{RCC\_CFGR\_PPRE2\_div\_2@{RCC\_CFGR\_PPRE2\_div\_2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE2\_div\_2}{RCC\_CFGR\_PPRE2\_div\_2}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+2~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00002000}
+
+
+
+Definition at line 71 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a6240ce3c335aba0d0cd791e30372752d}\label{_r_c_c_8h_a6240ce3c335aba0d0cd791e30372752d}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE2\_div\_4@{RCC\_CFGR\_PPRE2\_div\_4}}
+\index{RCC\_CFGR\_PPRE2\_div\_4@{RCC\_CFGR\_PPRE2\_div\_4}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE2\_div\_4}{RCC\_CFGR\_PPRE2\_div\_4}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+4~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00002800}
+
+
+
+Definition at line 72 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acb127891195e763d61d1e6b8ca37cb15}\label{_r_c_c_8h_acb127891195e763d61d1e6b8ca37cb15}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_PPRE2\_div\_8@{RCC\_CFGR\_PPRE2\_div\_8}}
+\index{RCC\_CFGR\_PPRE2\_div\_8@{RCC\_CFGR\_PPRE2\_div\_8}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_PPRE2\_div\_8}{RCC\_CFGR\_PPRE2\_div\_8}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+P\+P\+R\+E2\+\_\+div\+\_\+8~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00003000}
+
+
+
+Definition at line 73 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_afb563f217242d969f4355d0818fde705}\label{_r_c_c_8h_afb563f217242d969f4355d0818fde705}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SW\_HSE@{RCC\_CFGR\_SW\_HSE}}
+\index{RCC\_CFGR\_SW\_HSE@{RCC\_CFGR\_SW\_HSE}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SW\_HSE}{RCC\_CFGR\_SW\_HSE}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+H\+SE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000001}
+
+
+
+Definition at line 30 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acbac8bae4f0808b3c3a5185aa10081fb}\label{_r_c_c_8h_acbac8bae4f0808b3c3a5185aa10081fb}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SW\_HSI@{RCC\_CFGR\_SW\_HSI}}
+\index{RCC\_CFGR\_SW\_HSI@{RCC\_CFGR\_SW\_HSI}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SW\_HSI}{RCC\_CFGR\_SW\_HSI}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+H\+SI~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000000}
+
+
+
+Definition at line 29 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a87389cacb2eaf53730da13a2a33cd487}\label{_r_c_c_8h_a87389cacb2eaf53730da13a2a33cd487}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SW\_PLL@{RCC\_CFGR\_SW\_PLL}}
+\index{RCC\_CFGR\_SW\_PLL@{RCC\_CFGR\_SW\_PLL}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SW\_PLL}{RCC\_CFGR\_SW\_PLL}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+\_\+\+P\+LL~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002}
+
+
+
+Definition at line 31 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_ae09a0202f441c1a43e69c62331d50a08}\label{_r_c_c_8h_ae09a0202f441c1a43e69c62331d50a08}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SWS\_HSE@{RCC\_CFGR\_SWS\_HSE}}
+\index{RCC\_CFGR\_SWS\_HSE@{RCC\_CFGR\_SWS\_HSE}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SWS\_HSE}{RCC\_CFGR\_SWS\_HSE}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+H\+SE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x4}
+
+
+
+Definition at line 35 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a6764639cf221e1ebc0b5448dcaed590a}\label{_r_c_c_8h_a6764639cf221e1ebc0b5448dcaed590a}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SWS\_HSI@{RCC\_CFGR\_SWS\_HSI}}
+\index{RCC\_CFGR\_SWS\_HSI@{RCC\_CFGR\_SWS\_HSI}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SWS\_HSI}{RCC\_CFGR\_SWS\_HSI}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+H\+SI~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x0}
+
+
+
+Definition at line 34 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a2c67e2279804a83ef24438267d9d4a6c}\label{_r_c_c_8h_a2c67e2279804a83ef24438267d9d4a6c}} 
+\index{RCC.h@{RCC.h}!RCC\_CFGR\_SWS\_PLL@{RCC\_CFGR\_SWS\_PLL}}
+\index{RCC\_CFGR\_SWS\_PLL@{RCC\_CFGR\_SWS\_PLL}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CFGR\_SWS\_PLL}{RCC\_CFGR\_SWS\_PLL}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+F\+G\+R\+\_\+\+S\+W\+S\+\_\+\+P\+LL~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x8}
+
+
+
+Definition at line 36 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_acc05308869ad055e1e6f2c32d738aecd}\label{_r_c_c_8h_acc05308869ad055e1e6f2c32d738aecd}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_CSSON@{RCC\_CR\_CSSON}}
+\index{RCC\_CR\_CSSON@{RCC\_CR\_CSSON}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_CSSON}{RCC\_CR\_CSSON}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+C\+S\+S\+ON~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00040000}
+
+
+
+Definition at line 20 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a5e720d0e12dcc05729d8827d9acdae25}\label{_r_c_c_8h_a5e720d0e12dcc05729d8827d9acdae25}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_HSE@{RCC\_CR\_HSE}}
+\index{RCC\_CR\_HSE@{RCC\_CR\_HSE}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_HSE}{RCC\_CR\_HSE}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+SE~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00010000}
+
+
+
+Definition at line 16 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_aa3288090671af5a959aae4d7f7696d55}\label{_r_c_c_8h_aa3288090671af5a959aae4d7f7696d55}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_HSEBYP@{RCC\_CR\_HSEBYP}}
+\index{RCC\_CR\_HSEBYP@{RCC\_CR\_HSEBYP}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_HSEBYP}{RCC\_CR\_HSEBYP}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+E\+B\+YP~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00030000}
+
+
+
+Definition at line 19 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a86a34e00182c83409d89ff566cb02cc4}\label{_r_c_c_8h_a86a34e00182c83409d89ff566cb02cc4}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_HSERDY@{RCC\_CR\_HSERDY}}
+\index{RCC\_CR\_HSERDY@{RCC\_CR\_HSERDY}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_HSERDY}{RCC\_CR\_HSERDY}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+E\+R\+DY~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00020000}
+
+
+
+Definition at line 17 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a540fda81e44ce6db8304e61399545113}\label{_r_c_c_8h_a540fda81e44ce6db8304e61399545113}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_HSI@{RCC\_CR\_HSI}}
+\index{RCC\_CR\_HSI@{RCC\_CR\_HSI}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_HSI}{RCC\_CR\_HSI}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+SI~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000001}
+
+
+
+Definition at line 13 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a9dbac3f2bc04f04ebafe1e66ae3fcf0d}\label{_r_c_c_8h_a9dbac3f2bc04f04ebafe1e66ae3fcf0d}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_HSIRDY@{RCC\_CR\_HSIRDY}}
+\index{RCC\_CR\_HSIRDY@{RCC\_CR\_HSIRDY}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_HSIRDY}{RCC\_CR\_HSIRDY}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+H\+S\+I\+R\+DY~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x00000002}
+
+
+
+Definition at line 14 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_a6533168f410e93552ccf59a0b160e9c7}\label{_r_c_c_8h_a6533168f410e93552ccf59a0b160e9c7}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_PLL@{RCC\_CR\_PLL}}
+\index{RCC\_CR\_PLL@{RCC\_CR\_PLL}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_PLL}{RCC\_CR\_PLL}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+P\+LL~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x01000000}
+
+
+
+Definition at line 22 of file R\+C\+C.\+h.
+
+\mbox{\Hypertarget{_r_c_c_8h_afa12d7ac6a7f0f91d066aeb2c6071888}\label{_r_c_c_8h_afa12d7ac6a7f0f91d066aeb2c6071888}} 
+\index{RCC.h@{RCC.h}!RCC\_CR\_PLLRDY@{RCC\_CR\_PLLRDY}}
+\index{RCC\_CR\_PLLRDY@{RCC\_CR\_PLLRDY}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CR\_PLLRDY}{RCC\_CR\_PLLRDY}}
+{\footnotesize\ttfamily \#define R\+C\+C\+\_\+\+C\+R\+\_\+\+P\+L\+L\+R\+DY~(\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}})0x02010000}
+
+
+
+Definition at line 23 of file R\+C\+C.\+h.
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}\label{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}} 
+\index{RCC.h@{RCC.h}!ClockSource\_ReturnType@{ClockSource\_ReturnType}}
+\index{ClockSource\_ReturnType@{ClockSource\_ReturnType}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{ClockSource\_ReturnType}{ClockSource\_ReturnType}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} \mbox{\hyperlink{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}{Clock\+Source\+\_\+\+Return\+Type}}}
+
+
+
+Definition at line 4 of file R\+C\+C.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_r_c_c_8h_aaf7e483639696ea5ba296af287123313}\label{_r_c_c_8h_aaf7e483639696ea5ba296af287123313}} 
+\index{RCC.h@{RCC.h}!RCC\_ADCPRE\_SetPrescaler@{RCC\_ADCPRE\_SetPrescaler}}
+\index{RCC\_ADCPRE\_SetPrescaler@{RCC\_ADCPRE\_SetPrescaler}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_ADCPRE\_SetPrescaler()}{RCC\_ADCPRE\_SetPrescaler()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+A\+D\+C\+P\+R\+E\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Prescaler }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a2e0642ec6b8446ba0c1c4485cd8ee83f}\label{_r_c_c_8h_a2e0642ec6b8446ba0c1c4485cd8ee83f}} 
+\index{RCC.h@{RCC.h}!RCC\_CheckSystemClock@{RCC\_CheckSystemClock}}
+\index{RCC\_CheckSystemClock@{RCC\_CheckSystemClock}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_CheckSystemClock()}{RCC\_CheckSystemClock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_r_c_c_8h_a2dac985f9e31a092ef909b4cba1c20cc}{Clock\+Source\+\_\+\+Return\+Type}} R\+C\+C\+\_\+\+Check\+System\+Clock (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_ad902c1b14630876fc12cbfe1ffc2b081}\label{_r_c_c_8h_ad902c1b14630876fc12cbfe1ffc2b081}} 
+\index{RCC.h@{RCC.h}!RCC\_EnablePeripheral\_AHB@{RCC\_EnablePeripheral\_AHB}}
+\index{RCC\_EnablePeripheral\_AHB@{RCC\_EnablePeripheral\_AHB}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_EnablePeripheral\_AHB()}{RCC\_EnablePeripheral\_AHB()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+HB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Peripheral }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a7bf67815180462bcc5312eea7416e85d}\label{_r_c_c_8h_a7bf67815180462bcc5312eea7416e85d}} 
+\index{RCC.h@{RCC.h}!RCC\_EnablePeripheral\_APB1@{RCC\_EnablePeripheral\_APB1}}
+\index{RCC\_EnablePeripheral\_APB1@{RCC\_EnablePeripheral\_APB1}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_EnablePeripheral\_APB1()}{RCC\_EnablePeripheral\_APB1()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+P\+B1 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Peripheral }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_aefac54db057681641e68176f01342dff}\label{_r_c_c_8h_aefac54db057681641e68176f01342dff}} 
+\index{RCC.h@{RCC.h}!RCC\_EnablePeripheral\_APB2@{RCC\_EnablePeripheral\_APB2}}
+\index{RCC\_EnablePeripheral\_APB2@{RCC\_EnablePeripheral\_APB2}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_EnablePeripheral\_APB2()}{RCC\_EnablePeripheral\_APB2()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+Enable\+Peripheral\+\_\+\+A\+P\+B2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Peripheral }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a7a34ff38fc8d15632a27b5298bd5b093}\label{_r_c_c_8h_a7a34ff38fc8d15632a27b5298bd5b093}} 
+\index{RCC.h@{RCC.h}!RCC\_HPRE\_SetPrescaler@{RCC\_HPRE\_SetPrescaler}}
+\index{RCC\_HPRE\_SetPrescaler@{RCC\_HPRE\_SetPrescaler}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_HPRE\_SetPrescaler()}{RCC\_HPRE\_SetPrescaler()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+H\+P\+R\+E\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Prescaler }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_ac3e8e83ea6ec0186d615feff2be1de8b}\label{_r_c_c_8h_ac3e8e83ea6ec0186d615feff2be1de8b}} 
+\index{RCC.h@{RCC.h}!RCC\_PLLConfiguration@{RCC\_PLLConfiguration}}
+\index{RCC\_PLLConfiguration@{RCC\_PLLConfiguration}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_PLLConfiguration()}{RCC\_PLLConfiguration()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+P\+L\+L\+Configuration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{R\+C\+C\+\_\+\+P\+L\+L\+Source,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{R\+C\+C\+\_\+\+P\+L\+L\+M\+UL }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_afd35eec222f96742dbdecfcf3073ffd6}\label{_r_c_c_8h_afd35eec222f96742dbdecfcf3073ffd6}} 
+\index{RCC.h@{RCC.h}!RCC\_PPRE1\_SetPrescaler@{RCC\_PPRE1\_SetPrescaler}}
+\index{RCC\_PPRE1\_SetPrescaler@{RCC\_PPRE1\_SetPrescaler}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_PPRE1\_SetPrescaler()}{RCC\_PPRE1\_SetPrescaler()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+P\+P\+R\+E1\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Prescaler }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a7718c3fb0b124d43c3c4383156033cd9}\label{_r_c_c_8h_a7718c3fb0b124d43c3c4383156033cd9}} 
+\index{RCC.h@{RCC.h}!RCC\_PPRE2\_SetPrescaler@{RCC\_PPRE2\_SetPrescaler}}
+\index{RCC\_PPRE2\_SetPrescaler@{RCC\_PPRE2\_SetPrescaler}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_PPRE2\_SetPrescaler()}{RCC\_PPRE2\_SetPrescaler()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+P\+P\+R\+E2\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Prescaler }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a6b8e6d97db88a314e5d8c2035922414b}\label{_r_c_c_8h_a6b8e6d97db88a314e5d8c2035922414b}} 
+\index{RCC.h@{RCC.h}!RCC\_SelectMCO@{RCC\_SelectMCO}}
+\index{RCC\_SelectMCO@{RCC\_SelectMCO}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_SelectMCO()}{RCC\_SelectMCO()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+Select\+M\+CO (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Clock }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a9be34ed8a4b07e199c19c25663149bdf}\label{_r_c_c_8h_a9be34ed8a4b07e199c19c25663149bdf}} 
+\index{RCC.h@{RCC.h}!RCC\_SetClock@{RCC\_SetClock}}
+\index{RCC\_SetClock@{RCC\_SetClock}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{RCC\_SetClock()}{RCC\_SetClock()}}
+{\footnotesize\ttfamily void R\+C\+C\+\_\+\+Set\+Clock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{Clock,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{State }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_r_c_c_8h_a07cbb157e9c5e78c7b216c4d80bcd696}\label{_r_c_c_8h_a07cbb157e9c5e78c7b216c4d80bcd696}} 
+\index{RCC.h@{RCC.h}!Select\_SystemClock@{Select\_SystemClock}}
+\index{Select\_SystemClock@{Select\_SystemClock}!RCC.h@{RCC.h}}
+\doxysubsubsection{\texorpdfstring{Select\_SystemClock()}{Select\_SystemClock()}}
+{\footnotesize\ttfamily void Select\+\_\+\+System\+Clock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{System\+Clock }\end{DoxyParamCaption})}
+

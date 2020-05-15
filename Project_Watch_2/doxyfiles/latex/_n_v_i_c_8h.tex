@@ -1,0 +1,410 @@
+\hypertarget{_n_v_i_c_8h}{}\doxysection{include/\+N\+V\+IC.h File Reference}
+\label{_n_v_i_c_8h}\index{include/NVIC.h@{include/NVIC.h}}
+
+
+This file is to be used as an implementation of the N\+V\+IC driver.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a84c12f0474a99f86f63ad0b4b1ce553a}{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~6U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_af9f7903bcaffb78eff67ebfeef45ae22}{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~7U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a690e24f61d226fc60d86d13b4c48d4aa}{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~8U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_af442ed35c52eccce6238d78683a4914e}{E\+X\+T\+I3\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~9U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_ae65da47d8c30390c36683a8ffe9caf32}{E\+X\+T\+I4\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~10U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a3af0dec93c04caf12e77b6935dbc0dab}{U\+S\+A\+R\+T1\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~37U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_af88ab8fc1589abb30b7bb0f9514a63a3}{U\+S\+A\+R\+T2\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~38U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_afc1ac8b94415f987baa3754ebd786b38}{U\+S\+A\+R\+T3\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~39U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_ad7da588c3b9e09b846ef843bb88520a1}{U\+A\+R\+T4\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~52U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a409d65a4ee63178d2ee265346edd5c7b}{U\+A\+R\+T5\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER}}~53U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a3273123aa5d7f7e34fd139a2120f66a6}{D\+M\+A1\+\_\+\+Channel4\+\_\+\+I\+R\+Q\+Handler}}~14U
+\item 
+\#define \mbox{\hyperlink{_n_v_i_c_8h_a04c1df81dd62d692561f0f0c58cf21c2}{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler}}~15U
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_a1933537569375e61ae499f88941f563e}{N\+V\+I\+C\+\_\+\+Enable\+I\+RQ}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function to enable interrupt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_a41f7d2668da0d03c2705e0dd59741b07}{N\+V\+I\+C\+\_\+\+Disable\+I\+RQ}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function to disable interrupt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_a596093a3fe5dc7253eef800389bdf5e9}{N\+V\+I\+C\+\_\+\+Set\+Pending\+I\+RQ}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function to changes interrupt state to pending. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_a8fa7667684bb4e3142c54c29c64b39d3}{N\+V\+I\+C\+\_\+\+Clear\+Pending\+I\+RQ}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function to removes the pending state of an interrupt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_adace11c14f34b23e1ba7417a7156aac3}{N\+V\+I\+C\+\_\+\+I\+S\+Active}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function return status if the corresponding interrupt is active or not. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_a6f7f70b8408aae282c43d34f932438d7}{N\+V\+I\+C\+\_\+\+Set\+Priority}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} Priority)
+\begin{DoxyCompactList}\small\item\em Function return status if the corresponding interrupt is active or not. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_n_v_i_c_8h_aae0419a728ca749f6a597a4676696ecf}{N\+V\+I\+C\+\_\+\+Software\+Interrupt}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} I\+R\+Q\+Number)
+\begin{DoxyCompactList}\small\item\em Function to generate interrupt software. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_n_v_i_c_8h_adac5e801a8205ff88e8e29c667f7aea2}{N\+V\+I\+C\+\_\+\+Enable\+All\+Interrupt}} (void)
+\begin{DoxyCompactList}\small\item\em Function to enable I\+RQ interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_n_v_i_c_8h_a9b6f5eeae31b99707cc586db4f3d68ca}{N\+V\+I\+C\+\_\+\+Disable\+All\+Interrupt}} (void)
+\begin{DoxyCompactList}\small\item\em Function to disable I\+RQ interrupts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_n_v_i_c_8h_a15ac9f63de70675556e46383b7b09983}{N\+V\+I\+C\+\_\+\+Disable\+All\+Faults}} (void)
+\begin{DoxyCompactList}\small\item\em Function to disable all fault exceptions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_n_v_i_c_8h_aa1c9e4a6c5af4bf5a140c9e3e2a322b6}{N\+V\+I\+C\+\_\+\+Set\+Priority\+Grouping}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}} priority\+\_\+grouping)
+\begin{DoxyCompactList}\small\item\em Set priority group. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the N\+V\+IC driver. 
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_n_v_i_c_8h_a3273123aa5d7f7e34fd139a2120f66a6}\label{_n_v_i_c_8h_a3273123aa5d7f7e34fd139a2120f66a6}} 
+\index{NVIC.h@{NVIC.h}!DMA1\_Channel4\_IRQHandler@{DMA1\_Channel4\_IRQHandler}}
+\index{DMA1\_Channel4\_IRQHandler@{DMA1\_Channel4\_IRQHandler}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{DMA1\_Channel4\_IRQHandler}{DMA1\_Channel4\_IRQHandler}}
+{\footnotesize\ttfamily \#define D\+M\+A1\+\_\+\+Channel4\+\_\+\+I\+R\+Q\+Handler~14U}
+
+
+
+Definition at line 24 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_a04c1df81dd62d692561f0f0c58cf21c2}\label{_n_v_i_c_8h_a04c1df81dd62d692561f0f0c58cf21c2}} 
+\index{NVIC.h@{NVIC.h}!DMA1\_Channel5\_IRQHandler@{DMA1\_Channel5\_IRQHandler}}
+\index{DMA1\_Channel5\_IRQHandler@{DMA1\_Channel5\_IRQHandler}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{DMA1\_Channel5\_IRQHandler}{DMA1\_Channel5\_IRQHandler}}
+{\footnotesize\ttfamily \#define D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler~15U}
+
+
+
+Definition at line 25 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_a84c12f0474a99f86f63ad0b4b1ce553a}\label{_n_v_i_c_8h_a84c12f0474a99f86f63ad0b4b1ce553a}} 
+\index{NVIC.h@{NVIC.h}!EXTI0\_IRQNUMBER@{EXTI0\_IRQNUMBER}}
+\index{EXTI0\_IRQNUMBER@{EXTI0\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{EXTI0\_IRQNUMBER}{EXTI0\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define E\+X\+T\+I0\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~6U}
+
+
+
+Definition at line 14 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_af9f7903bcaffb78eff67ebfeef45ae22}\label{_n_v_i_c_8h_af9f7903bcaffb78eff67ebfeef45ae22}} 
+\index{NVIC.h@{NVIC.h}!EXTI1\_IRQNUMBER@{EXTI1\_IRQNUMBER}}
+\index{EXTI1\_IRQNUMBER@{EXTI1\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{EXTI1\_IRQNUMBER}{EXTI1\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define E\+X\+T\+I1\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~7U}
+
+
+
+Definition at line 15 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_a690e24f61d226fc60d86d13b4c48d4aa}\label{_n_v_i_c_8h_a690e24f61d226fc60d86d13b4c48d4aa}} 
+\index{NVIC.h@{NVIC.h}!EXTI2\_IRQNUMBER@{EXTI2\_IRQNUMBER}}
+\index{EXTI2\_IRQNUMBER@{EXTI2\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{EXTI2\_IRQNUMBER}{EXTI2\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define E\+X\+T\+I2\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~8U}
+
+
+
+Definition at line 16 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_af442ed35c52eccce6238d78683a4914e}\label{_n_v_i_c_8h_af442ed35c52eccce6238d78683a4914e}} 
+\index{NVIC.h@{NVIC.h}!EXTI3\_IRQNUMBER@{EXTI3\_IRQNUMBER}}
+\index{EXTI3\_IRQNUMBER@{EXTI3\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{EXTI3\_IRQNUMBER}{EXTI3\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define E\+X\+T\+I3\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~9U}
+
+
+
+Definition at line 17 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_ae65da47d8c30390c36683a8ffe9caf32}\label{_n_v_i_c_8h_ae65da47d8c30390c36683a8ffe9caf32}} 
+\index{NVIC.h@{NVIC.h}!EXTI4\_IRQNUMBER@{EXTI4\_IRQNUMBER}}
+\index{EXTI4\_IRQNUMBER@{EXTI4\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{EXTI4\_IRQNUMBER}{EXTI4\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define E\+X\+T\+I4\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~10U}
+
+
+
+Definition at line 18 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_ad7da588c3b9e09b846ef843bb88520a1}\label{_n_v_i_c_8h_ad7da588c3b9e09b846ef843bb88520a1}} 
+\index{NVIC.h@{NVIC.h}!UART4\_IRQNUMBER@{UART4\_IRQNUMBER}}
+\index{UART4\_IRQNUMBER@{UART4\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{UART4\_IRQNUMBER}{UART4\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define U\+A\+R\+T4\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~52U}
+
+
+
+Definition at line 22 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_a409d65a4ee63178d2ee265346edd5c7b}\label{_n_v_i_c_8h_a409d65a4ee63178d2ee265346edd5c7b}} 
+\index{NVIC.h@{NVIC.h}!UART5\_IRQNUMBER@{UART5\_IRQNUMBER}}
+\index{UART5\_IRQNUMBER@{UART5\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{UART5\_IRQNUMBER}{UART5\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define U\+A\+R\+T5\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~53U}
+
+
+
+Definition at line 23 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_a3af0dec93c04caf12e77b6935dbc0dab}\label{_n_v_i_c_8h_a3af0dec93c04caf12e77b6935dbc0dab}} 
+\index{NVIC.h@{NVIC.h}!USART1\_IRQNUMBER@{USART1\_IRQNUMBER}}
+\index{USART1\_IRQNUMBER@{USART1\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{USART1\_IRQNUMBER}{USART1\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define U\+S\+A\+R\+T1\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~37U}
+
+
+
+Definition at line 19 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_af88ab8fc1589abb30b7bb0f9514a63a3}\label{_n_v_i_c_8h_af88ab8fc1589abb30b7bb0f9514a63a3}} 
+\index{NVIC.h@{NVIC.h}!USART2\_IRQNUMBER@{USART2\_IRQNUMBER}}
+\index{USART2\_IRQNUMBER@{USART2\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{USART2\_IRQNUMBER}{USART2\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define U\+S\+A\+R\+T2\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~38U}
+
+
+
+Definition at line 20 of file N\+V\+I\+C.\+h.
+
+\mbox{\Hypertarget{_n_v_i_c_8h_afc1ac8b94415f987baa3754ebd786b38}\label{_n_v_i_c_8h_afc1ac8b94415f987baa3754ebd786b38}} 
+\index{NVIC.h@{NVIC.h}!USART3\_IRQNUMBER@{USART3\_IRQNUMBER}}
+\index{USART3\_IRQNUMBER@{USART3\_IRQNUMBER}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{USART3\_IRQNUMBER}{USART3\_IRQNUMBER}}
+{\footnotesize\ttfamily \#define U\+S\+A\+R\+T3\+\_\+\+I\+R\+Q\+N\+U\+M\+B\+ER~39U}
+
+
+
+Definition at line 21 of file N\+V\+I\+C.\+h.
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_n_v_i_c_8h_a8fa7667684bb4e3142c54c29c64b39d3}\label{_n_v_i_c_8h_a8fa7667684bb4e3142c54c29c64b39d3}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_ClearPendingIRQ@{NVIC\_ClearPendingIRQ}}
+\index{NVIC\_ClearPendingIRQ@{NVIC\_ClearPendingIRQ}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_ClearPendingIRQ()}{NVIC\_ClearPendingIRQ()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Clear\+Pending\+I\+RQ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function to removes the pending state of an interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a15ac9f63de70675556e46383b7b09983}\label{_n_v_i_c_8h_a15ac9f63de70675556e46383b7b09983}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_DisableAllFaults@{NVIC\_DisableAllFaults}}
+\index{NVIC\_DisableAllFaults@{NVIC\_DisableAllFaults}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_DisableAllFaults()}{NVIC\_DisableAllFaults()}}
+{\footnotesize\ttfamily void N\+V\+I\+C\+\_\+\+Disable\+All\+Faults (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Function to disable all fault exceptions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a9b6f5eeae31b99707cc586db4f3d68ca}\label{_n_v_i_c_8h_a9b6f5eeae31b99707cc586db4f3d68ca}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_DisableAllInterrupt@{NVIC\_DisableAllInterrupt}}
+\index{NVIC\_DisableAllInterrupt@{NVIC\_DisableAllInterrupt}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_DisableAllInterrupt()}{NVIC\_DisableAllInterrupt()}}
+{\footnotesize\ttfamily void N\+V\+I\+C\+\_\+\+Disable\+All\+Interrupt (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Function to disable I\+RQ interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a41f7d2668da0d03c2705e0dd59741b07}\label{_n_v_i_c_8h_a41f7d2668da0d03c2705e0dd59741b07}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_DisableIRQ@{NVIC\_DisableIRQ}}
+\index{NVIC\_DisableIRQ@{NVIC\_DisableIRQ}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_DisableIRQ()}{NVIC\_DisableIRQ()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Disable\+I\+RQ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function to disable interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_adac5e801a8205ff88e8e29c667f7aea2}\label{_n_v_i_c_8h_adac5e801a8205ff88e8e29c667f7aea2}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_EnableAllInterrupt@{NVIC\_EnableAllInterrupt}}
+\index{NVIC\_EnableAllInterrupt@{NVIC\_EnableAllInterrupt}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_EnableAllInterrupt()}{NVIC\_EnableAllInterrupt()}}
+{\footnotesize\ttfamily void N\+V\+I\+C\+\_\+\+Enable\+All\+Interrupt (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Function to enable I\+RQ interrupts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a1933537569375e61ae499f88941f563e}\label{_n_v_i_c_8h_a1933537569375e61ae499f88941f563e}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_EnableIRQ@{NVIC\_EnableIRQ}}
+\index{NVIC\_EnableIRQ@{NVIC\_EnableIRQ}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_EnableIRQ()}{NVIC\_EnableIRQ()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Enable\+I\+RQ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function to enable interrupt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type\+: ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_adace11c14f34b23e1ba7417a7156aac3}\label{_n_v_i_c_8h_adace11c14f34b23e1ba7417a7156aac3}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_ISActive@{NVIC\_ISActive}}
+\index{NVIC\_ISActive@{NVIC\_ISActive}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_ISActive()}{NVIC\_ISActive()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+I\+S\+Active (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function return status if the corresponding interrupt is active or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a596093a3fe5dc7253eef800389bdf5e9}\label{_n_v_i_c_8h_a596093a3fe5dc7253eef800389bdf5e9}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_SetPendingIRQ@{NVIC\_SetPendingIRQ}}
+\index{NVIC\_SetPendingIRQ@{NVIC\_SetPendingIRQ}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_SetPendingIRQ()}{NVIC\_SetPendingIRQ()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Set\+Pending\+I\+RQ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function to changes interrupt state to pending. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_a6f7f70b8408aae282c43d34f932438d7}\label{_n_v_i_c_8h_a6f7f70b8408aae282c43d34f932438d7}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_SetPriority@{NVIC\_SetPriority}}
+\index{NVIC\_SetPriority@{NVIC\_SetPriority}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_SetPriority()}{NVIC\_SetPriority()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Set\+Priority (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{Priority }\end{DoxyParamCaption})}
+
+
+
+Function return status if the corresponding interrupt is active or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+{\em Priority} & interrupt priority number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_aa1c9e4a6c5af4bf5a140c9e3e2a322b6}\label{_n_v_i_c_8h_aa1c9e4a6c5af4bf5a140c9e3e2a322b6}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_SetPriorityGrouping@{NVIC\_SetPriorityGrouping}}
+\index{NVIC\_SetPriorityGrouping@{NVIC\_SetPriorityGrouping}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_SetPriorityGrouping()}{NVIC\_SetPriorityGrouping()}}
+{\footnotesize\ttfamily void N\+V\+I\+C\+\_\+\+Set\+Priority\+Grouping (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a0ceed739f3b2b55ee8d4d2a79a82cdea}{u32}}}]{priority\+\_\+grouping }\end{DoxyParamCaption})}
+
+
+
+Set priority group. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em priority\+\_\+grouping} & priority group \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_n_v_i_c_8h_aae0419a728ca749f6a597a4676696ecf}\label{_n_v_i_c_8h_aae0419a728ca749f6a597a4676696ecf}} 
+\index{NVIC.h@{NVIC.h}!NVIC\_SoftwareInterrupt@{NVIC\_SoftwareInterrupt}}
+\index{NVIC\_SoftwareInterrupt@{NVIC\_SoftwareInterrupt}!NVIC.h@{NVIC.h}}
+\doxysubsubsection{\texorpdfstring{NVIC\_SoftwareInterrupt()}{NVIC\_SoftwareInterrupt()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} N\+V\+I\+C\+\_\+\+Software\+Interrupt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{I\+R\+Q\+Number }\end{DoxyParamCaption})}
+
+
+
+Function to generate interrupt software. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em I\+R\+Q\+Number} & interrupt request number from 0 to 80 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK\+: request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK\+: request not accepted 
+\end{DoxyReturn}
